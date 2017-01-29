@@ -1,0 +1,1523 @@
+467  [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+538  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+6628 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+7295 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+11016 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+13656 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+13780 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+13829 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+14064 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+14690 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+14717 [main] INFO  test.java.LogTest - _______________________________Test = googleValidLogin()_______________________________
+14725 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+15380 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+18785 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+19345 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+19404 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+20516 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+20554 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: signIn |text: ('')
+21825 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: signIn |text: ('')
+22325 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+23092 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+25041 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+25149 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+25295 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Google')
+27538 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Google')
+29057 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+30674 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+30894 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+32473 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+32548 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+32811 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+32820 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+33703 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+33723 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+35618 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+35630 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+35630 [main] ERROR test.java.LogTest - javascript error 1.SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead [https://www.google.com/settings/_/scs/ac-static/_/js/k=ac.s2.ru.8D7B5tF7hr0.O/m=b2,s2_p/am=AGAmAg/rt=j/d=1/t=zcms/rs=AD6RtdO5u1ZAI4gikso_oAlx3gSAwE4Ijg:64]
+35630 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+35662 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+35662 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 2
+35666 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://www.google.com/settings/personalinfo&followup=https://www.google.com/settings/personalinfo
+35670 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+35856 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+39566 [main] INFO  test.java.LogTest - _______________________Test = googleValidLoginPopup_______________________
+39649 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+42983 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+42988 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+43089 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Google')
+45364 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Google')
+46036 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+46584 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+46655 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+47321 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+47382 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: signIn |text: ('')
+48001 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: signIn |text: ('')
+50454 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+51531 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+51695 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+53311 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+53488 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+53752 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+53759 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+54607 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+54627 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+56094 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+56120 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+56120 [main] ERROR test.java.LogTest - javascript error 1.ReferenceError: shindig is not defined [https://ssl.gstatic.com/accounts/o/2746439694-postmessage.js:18]
+56120 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+56120 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+56120 [main] ERROR test.java.LogTest - javascript error 2.ReferenceError: shindig is not defined [https://ssl.gstatic.com/accounts/o/2746439694-postmessage.js:18]
+56120 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+56121 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+56121 [main] ERROR test.java.LogTest - javascript error 3.SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead [https://www.google.com/settings/_/scs/ac-static/_/js/k=ac.s2.ru.8D7B5tF7hr0.O/m=b2,s2_p/am=AGAmAg/rt=j/d=1/t=zcms/rs=AD6RtdO5u1ZAI4gikso_oAlx3gSAwE4Ijg:64]
+56121 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+56151 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+56151 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 3
+56156 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://www.google.com/settings/personalinfo&followup=https://www.google.com/settings/personalinfo
+56159 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+56347 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+60410 [main] INFO  test.java.LogTest - _______________________________Test = facebookValidLogin()_______________________________
+60410 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+61985 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+62656 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+62726 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+63167 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+63232 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: u_0_n |text: ('')
+66066 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: u_0_n |text: ('')
+67066 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+67808 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+68373 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+68382 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+68563 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Facebook')
+70597 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Facebook')
+72031 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+73505 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+73692 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+75274 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+75349 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+75613 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+75622 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+76557 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+80391 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+80537 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+80538 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 4
+80542 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://www.facebook.com/
+80546 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+80725 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+84800 [main] INFO  test.java.LogTest - _______________________________Test = facebookValidLoginPopup()_______________________________
+84876 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+88149 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+88157 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+88266 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Facebook')
+90563 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Facebook')
+91555 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+92194 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+92265 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+92709 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+92780 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: u_0_1 |text: ('')
+93280 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: u_0_1 |text: ('')
+95860 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+96960 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+97097 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+98670 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+98845 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+99110 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+99119 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+99922 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+101505 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+103467 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+103467 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 5
+103474 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://www.facebook.com/
+103478 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+103673 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+107984 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+107984 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+109100 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Видеозаписи
+190')
+110252 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Видеозаписи
+190')
+110260 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+110782 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+110949 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('00:04
+30 октября 2014 в 16:02
+h
+qPyatsotVasiliiKolyaSeda
+1 USD')
+112119 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('00:04
+30 октября 2014 в 16:02
+h
+qPyatsotVasiliiKolyaSeda
+1 USD')
+112411 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Купить видео')
+113159 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Купить видео')
+113168 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+113279 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+114400 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+114468 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+115111 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+115185 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+115839 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+115905 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+116265 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+117260 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+117330 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: popup_close |text: ('')
+117982 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: popup_close |text: ('')
+117998 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+118143 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+120468 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+120582 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+122158 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+122203 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+122467 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+122477 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+123289 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+123328 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+123328 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 6
+123332 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+123335 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+123360 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+127070 [main] INFO  test.java.LogTest - _______________________Test = invalidLoginNoEmail_______________________
+127151 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+130588 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+130651 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+130702 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+130745 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+130784 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+131397 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+131498 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+133198 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+133770 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+133800 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+133800 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 7
+133804 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+133814 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+133931 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+137939 [main] INFO  test.java.LogTest - _______________________Test = invalidLoginNoPass_______________________
+138026 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+139738 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+139746 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+139906 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+140602 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+140669 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+140720 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+140766 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+142481 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+143050 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+143103 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+143103 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 8
+143115 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+143120 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+143237 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+147404 [main] INFO  test.java.LogTest - _______________________Test = invalidLoginWrongEmail_______________________
+147500 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+149233 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+149248 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+149339 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+149605 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+149767 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+150379 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+150476 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+152131 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+152681 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+152740 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+152740 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 9
+152747 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+152751 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+152870 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+156932 [main] INFO  test.java.LogTest - _______________________Test = invalidLoginWrongPass_______________________
+157018 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+158850 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+158903 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+158950 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+159571 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+159650 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+159963 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+160064 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+161769 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+162320 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+162375 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+162375 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 10
+162382 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+162386 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+162512 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+166729 [main] INFO  test.java.LogTest - _______________________Test = loginFBHangoutPopup_______________________
+166729 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+167799 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Сегодня в 18:09
+dffvdfv
+Andrei Hos
+PRO
+Бесплатно')
+168684 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Сегодня в 18:09
+dffvdfv
+Andrei Hos
+PRO
+Бесплатно')
+169039 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: original_subscribe |text: ('Принять участие | Бесплатно')
+169921 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: original_subscribe |text: ('Принять участие | Бесплатно')
+170073 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+170614 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+170706 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Facebook')
+171700 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Facebook')
+172786 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+173452 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+173514 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+173943 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+174029 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: u_0_1 |text: ('')
+174556 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: u_0_1 |text: ('')
+177669 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+178805 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+178829 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+178833 [main] INFO  test.java.LogTest - Assert that user Vaska Ivanov takes part in conference
+178841 [main] INFO  test.java.LogTest - Participant nameVaskaIvanov
+178894 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+180481 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+180657 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+180951 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+181973 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+181989 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+183396 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+185678 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+185678 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 11
+185685 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://www.facebook.com/
+185689 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+185896 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+190025 [main] INFO  test.java.LogTest - _______________________Test = loginFromHeaderHangCreate_______________________
+190114 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_singcreate |text: ('Создать трансляцию')
+193180 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_singcreate |text: ('Создать трансляцию')
+193211 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+193325 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+195214 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+195277 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Facebook')
+196322 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Facebook')
+197264 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+197910 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+197980 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+198429 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+198526 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: u_0_1 |text: ('')
+199054 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: u_0_1 |text: ('')
+201374 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+202584 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+202626 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+204191 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+204375 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+204675 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+205468 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+205485 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+214111 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+214261 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+214261 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 12
+214265 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://www.facebook.com/
+214269 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+214466 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+218923 [main] INFO  test.java.LogTest - _______________________Test = loginFromChat_______________________
+218923 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//chat'
+219866 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+220499 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+220588 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+221213 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+221384 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+223118 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+224345 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+226404 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+226449 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+227997 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+228076 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+228443 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+229267 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+229287 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+229328 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+229328 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 13
+229334 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+229339 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+229368 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+233082 [main] INFO  test.java.LogTest - _______________________Test = loginFromComments_______________________
+233082 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+234223 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Трансляция завершена
+Вчера в 17:43
+1
+AlexandraAlexandraAlexan
+PRO
+3
+Бесплатно')
+236279 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Трансляция завершена
+Вчера в 17:43
+1
+AlexandraAlexandraAlexan
+PRO
+3
+Бесплатно')
+236678 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Войти')
+237929 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Войти')
+238660 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+239331 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+239402 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+240019 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+240095 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+241136 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+241971 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+244052 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+244197 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+245799 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+245926 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+246184 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+246296 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+247086 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+247135 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+247135 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 14
+247142 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+247149 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+247175 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+250888 [main] INFO  test.java.LogTest - _______________________Test = loginFromFollowers_______________________
+250888 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/contacts/15301/followers'
+251841 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+252484 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+252621 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+253326 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+253405 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+255121 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+256047 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+258096 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+258136 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+259781 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+259820 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+260084 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+260094 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+260940 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+260982 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+260982 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 15
+260989 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+260995 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+261031 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+264370 [main] INFO  test.java.LogTest - _______________________Test = loginFromFollowing_______________________
+264370 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/contacts/15301'
+265108 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+265734 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+265836 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+266449 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+266527 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+268381 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+269350 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+271408 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+271594 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+273200 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+273240 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+273548 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+274440 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+274457 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+274491 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+274491 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 16
+274499 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+274502 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+274516 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+278256 [main] INFO  test.java.LogTest - _______________________Test = loginFromHangCreate_______________________
+278257 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/conference/create'
+280154 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+280802 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+280865 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+281512 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+281571 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+283280 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+284494 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+286531 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+286726 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+288244 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+288385 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+288650 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+288660 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+289562 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+289580 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+289623 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+289623 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 17
+289631 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+289641 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+289713 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+293484 [main] INFO  test.java.LogTest - _______________________Test = loginFromHangoutHeader_______________________
+293485 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+294617 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Трансляция завершена
+Вчера в 17:43
+1
+AlexandraAlexandraAlexan
+PRO
+3
+Бесплатно')
+296664 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Трансляция завершена
+Вчера в 17:43
+1
+AlexandraAlexandraAlexan
+PRO
+3
+Бесплатно')
+297032 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+298719 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+298736 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+298805 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+299422 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+299485 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+300142 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+300217 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+301925 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+302868 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+304968 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+305147 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+306748 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+306866 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+307196 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+308009 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+308033 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+308074 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+308074 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 18
+308079 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+308083 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+308120 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+311812 [main] INFO  test.java.LogTest - _______________________Test = loginFromHangoutPopup_______________________
+311812 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+312754 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Сегодня в 18:09
+dffvdfv
+Andrei Hos
+PRO
+1
+Бесплатно')
+315147 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Сегодня в 18:09
+dffvdfv
+Andrei Hos
+PRO
+1
+Бесплатно')
+315287 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: original_subscribe |text: ('Принять участие | Бесплатно')
+316246 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: original_subscribe |text: ('Принять участие | Бесплатно')
+316376 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+316837 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+316879 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+317495 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+317564 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+318223 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+318261 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+318667 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+319519 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+321665 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+321705 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+321709 [main] INFO  test.java.LogTest - Assert that user Petrikov Vasilii Ivanovi takes part in conference
+321716 [main] INFO  test.java.LogTest - Participant nameVaskaIvanov
+321723 [main] INFO  test.java.LogTest - Participant namePetrikovVasiliiIvanovi
+321774 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+323361 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+323435 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+323731 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+324647 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+324668 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+324703 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+324704 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 19
+324708 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+324715 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+324764 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+328496 [main] INFO  test.java.LogTest - _______________________Test = loginFromHeaderHangCreate_______________________
+328589 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_singcreate |text: ('Создать трансляцию')
+331768 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_singcreate |text: ('Создать трансляцию')
+331856 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+331936 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+333687 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+333795 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+334401 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+334455 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+335117 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+335178 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+335537 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+336611 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+338854 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+339060 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+340650 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+340726 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+340995 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+341031 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+341857 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+341898 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+341898 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 20
+341905 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+341912 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+341949 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+345690 [main] INFO  test.java.LogTest - _______________________Test = loginFromMoney_______________________
+345690 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//tmoney/history'
+346424 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+347041 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+347157 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+347770 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+347831 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+349577 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+350555 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+352616 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+352742 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+354305 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+354371 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+354645 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+355421 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+355449 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+355496 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+355497 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 21
+355507 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+355513 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+355554 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+359307 [main] INFO  test.java.LogTest - _______________________Test = loginFromNews_______________________
+359308 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//news'
+360204 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+360820 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+360898 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+361550 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+361631 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+363653 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+364621 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+366620 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+366689 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+368218 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+368257 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+368550 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+369437 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+369457 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+369500 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+369501 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 22
+369507 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+369514 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+369543 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+373262 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+373262 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//pricing'
+374248 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: login_chat |text: ('ПОДАТЬ ЗАЯВКУ')
+376852 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: login_chat |text: ('ПОДАТЬ ЗАЯВКУ')
+376864 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+376918 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+377783 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+377828 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+378451 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+378520 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+379180 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+379247 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+379613 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+380867 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+382950 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+383249 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+384857 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+384949 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+385243 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+385252 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+386151 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+386170 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+386192 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+386193 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 23
+386196 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+386200 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+386230 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+389960 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+389960 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//pricing'
+390963 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: login_chat |text: ('Подать заявку')
+393679 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: login_chat |text: ('Подать заявку')
+393684 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+393818 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+394824 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+394932 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+395544 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+395631 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+396278 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+396352 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+396718 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+397916 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+400077 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+400207 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+401801 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+401852 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+402151 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+403152 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+403170 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+403218 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+403219 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 24
+403226 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+403229 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+403255 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+406994 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+406995 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//pricing'
+407990 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('ПОПРОБОВАТЬ')
+408964 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('ПОПРОБОВАТЬ')
+408980 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+409106 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+410216 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+410292 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+410903 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+410969 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+411613 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+411687 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+412064 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+412957 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+415026 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+415194 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+416756 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+416829 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+417092 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+417141 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+417944 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+417983 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+417984 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 25
+417991 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+417997 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+418022 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+421708 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+421709 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//pricing'
+422875 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Попробовать')
+424434 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Попробовать')
+424540 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+424626 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+425325 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+425399 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+426015 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+426216 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+426907 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+426956 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+427332 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+428287 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+430318 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+430558 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+432127 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+432187 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+432476 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+433264 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+433284 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+433311 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+433311 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 26
+433315 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+433319 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+433330 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+437067 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+437068 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//pricing'
+438087 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Купить')
+440159 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Купить')
+440165 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+440281 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+440840 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+440935 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+441583 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+441652 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+442309 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+442356 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+442726 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+443562 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+443598 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: popup_close |text: ('')
+444336 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: popup_close |text: ('')
+444343 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+444857 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+444920 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+447152 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+447317 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+448877 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+448916 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+449180 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+449188 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+450114 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+450126 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+450165 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+450165 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 27
+450172 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+450177 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+450191 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+453925 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+453925 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//pricing'
+454972 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Купить')
+457257 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Купить')
+457262 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+457317 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+457984 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+458075 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+458678 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+458754 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+459379 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+459433 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+459803 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+460618 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+460669 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: popup_close |text: ('')
+461390 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: popup_close |text: ('')
+461400 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+461909 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+461965 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+464225 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+464433 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+466076 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+466139 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+466393 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+466399 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+467243 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+467253 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+467294 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+467294 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 28
+467302 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+467308 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+467347 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+471069 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+471070 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//pricing'
+472032 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('КУПИТЬ')
+473557 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('КУПИТЬ')
+473562 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+473658 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+474240 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+474343 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+474957 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+475033 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+475690 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+475725 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+476095 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+476972 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+477012 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: popup_close |text: ('')
+477664 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: popup_close |text: ('')
+477680 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+478198 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+478247 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+480483 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+480566 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+482203 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+482257 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+482568 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+483385 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+483403 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+483448 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+483449 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 29
+483455 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+483462 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+483496 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+487229 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+487229 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//pricing'
+488230 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('КУПИТЬ')
+490246 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('КУПИТЬ')
+490261 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+490362 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+490644 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+490707 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+491327 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+491382 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+492038 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+492114 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+492490 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+493354 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+493568 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: popup_close |text: ('')
+494218 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: popup_close |text: ('')
+494222 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+494274 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+496516 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+496683 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+498244 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+498322 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+498736 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+499485 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+499499 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+499541 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+499541 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 30
+499545 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+499550 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+499579 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+503311 [main] INFO  test.java.LogTest - _______________________Test = loginFromSettAccount_______________________
+503311 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//settings/account'
+504230 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+504853 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+505029 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+505744 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+505914 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+507639 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+508456 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+510564 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+510625 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+512202 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+512238 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+512701 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+513483 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+513499 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+513538 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+513538 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 31
+513542 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+513546 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+513562 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+517309 [main] INFO  test.java.LogTest - _______________________Test = loginFromSettings_______________________
+517310 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//settings'
+518232 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+518857 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+518925 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+519681 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+519856 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+521577 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+522547 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+524769 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+524808 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+526475 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+526530 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+526794 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+526803 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+527667 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+527688 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+527735 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+527736 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 32
+527739 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+527746 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+527780 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+531510 [main] INFO  test.java.LogTest - _______________________Test = loginGMHangoutPopup_______________________
+531511 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+533999 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Сегодня в 18:09
+dffvdfv
+Andrei Hos
+PRO
+2
+Бесплатно')
+536074 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Сегодня в 18:09
+dffvdfv
+Andrei Hos
+PRO
+2
+Бесплатно')
+536536 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: original_subscribe |text: ('Принять участие | Бесплатно')
+537677 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: original_subscribe |text: ('Принять участие | Бесплатно')
+537784 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+538255 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+538309 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Google')
+539173 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Google')
+540067 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+540645 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+540705 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+541350 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+541403 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: signIn |text: ('')
+542033 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: signIn |text: ('')
+544189 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+545310 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+545361 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+545370 [main] INFO  test.java.LogTest - Assert that user Petrikov Vasilii (DONT CHANGE) takes part in conference
+545385 [main] INFO  test.java.LogTest - Participant nameVaskaIvanov
+545400 [main] INFO  test.java.LogTest - Participant namePetrikovVasiliiIvanovi
+545414 [main] INFO  test.java.LogTest - Participant namePetrikovVasilii(DONTCHANGE)
+545521 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+547217 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+547285 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+547549 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+547558 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+548417 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+548432 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+550306 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+550319 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+550319 [main] ERROR test.java.LogTest - javascript error 1.SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead [https://www.google.com/settings/_/scs/ac-static/_/js/k=ac.s2.ru.8D7B5tF7hr0.O/m=b2,s2_p/am=AGAmAg/rt=j/d=1/t=zcms/rs=AD6RtdO5u1ZAI4gikso_oAlx3gSAwE4Ijg:64]
+550319 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+550353 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+550353 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 33
+550361 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://www.google.com/settings/personalinfo&followup=https://www.google.com/settings/personalinfo
+550364 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+550547 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+554554 [main] INFO  test.java.LogTest - _______________________Test = loginFromHeaderHangCreate_______________________
+554648 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_singcreate |text: ('Создать трансляцию')
+557879 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_singcreate |text: ('Создать трансляцию')
+557890 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+557945 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+559714 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+559797 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Google')
+560698 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Google')
+561500 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+562054 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+562116 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+562763 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+562845 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: signIn |text: ('')
+563480 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: signIn |text: ('')
+565627 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+566750 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+566802 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+568299 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+568604 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+568870 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+568999 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+569814 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+571808 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+571821 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+571821 [main] ERROR test.java.LogTest - javascript error 1.SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead [https://www.google.com/settings/_/scs/ac-static/_/js/k=ac.s2.ru.8D7B5tF7hr0.O/m=b2,s2_p/am=AGAmAg/rt=j/d=1/t=zcms/rs=AD6RtdO5u1ZAI4gikso_oAlx3gSAwE4Ijg:64]
+571821 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+571843 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+571843 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 34
+571847 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://www.google.com/settings/personalinfo&followup=https://www.google.com/settings/personalinfo
+571850 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+572046 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+575792 [main] INFO  test.java.LogTest - _______________________Test = invalidLoginWrongPass_______________________
+575876 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+579230 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+579235 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+579316 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Создайте свой аккаунт!')
+581187 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Создайте свой аккаунт!')
+581297 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+581562 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+581597 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+581650 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+581650 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 35
+581659 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+581666 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+581795 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+585495 [main] INFO  test.java.LogTest - _______________________________Test = validLoginPage_______________________________
+585495 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/login'
+586609 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+587234 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+587307 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+587960 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+588128 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+588498 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+589417 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+591533 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+591655 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+593246 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+593533 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+593840 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+594653 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+594673 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+594713 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+594713 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 36
+594717 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+594722 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+594750 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+598471 [main] INFO  test.java.LogTest - _______________________________Test = validLoginPopup_______________________________
+598550 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+601952 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+602018 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+602144 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+602757 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+602843 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+603499 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+603569 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+605295 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+606275 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+608420 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+608554 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+610109 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+610182 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+610446 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+610456 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+611337 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+611354 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+611399 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+611399 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 37
+611410 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+611417 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+611441 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+615167 [main] INFO  test.java.LogTest - _______________________Test = captchaWrongPass_______________________
+615204 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+618558 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+618563 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+618642 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+619331 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+619438 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+619744 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+619840 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+621562 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+621651 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+622331 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+622425 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+622751 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+622872 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+623013 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+623066 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+623733 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+623791 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+624150 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+624266 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+624412 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+624466 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+625125 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+625182 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+625484 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+625546 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+625698 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+625750 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+626393 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+626452 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+626784 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+626914 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+627066 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+627118 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+627767 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+627831 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+628183 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+628277 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+628424 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+628712 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+628888 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+268  [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+277  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+3417 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+4095 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+6843 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+9460 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+9606 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+9657 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+9884 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+9896 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+10566 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+10593 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = InvalidMyAccount()<<<<<<<<<<<<<<<
+10726 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+11511 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+11516 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+11582 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+13230 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+13303 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+13923 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+14002 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+15706 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+16653 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+18670 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+18834 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+19440 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+19446 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+19959 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+20037 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Эл. почта')
+20376 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Эл. почта')
+20386 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+20906 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+31001 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+31002 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: main_config_email
+31002 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+31008 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+31120 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+31899 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+31969 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+33508 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+33582 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+33839 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+33845 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+34677 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+34701 [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+34701 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 2
+34709 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+34718 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+34742 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+45455 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = MainSettInvalid<<<<<<<<<<<<<<<
+45540 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+48942 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+48958 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+49038 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+49702 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+49754 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+50373 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+50472 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+52186 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+53317 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+55282 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+55485 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+56063 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+56069 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+56586 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+56662 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+56723 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+56809 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+58347 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+58938 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+59008 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+60812 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+60915 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+62503 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+62577 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+62907 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+63737 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+63762 [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+63762 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 3
+63767 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+63776 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+63805 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+74494 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = aMainSettUrlInvalid<<<<<<<<<<<<<<<
+74572 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+77921 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+77925 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+78016 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+78643 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+78716 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+79337 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+79424 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+81092 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+82022 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+84081 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+84131 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+84703 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+84710 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+85226 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+85301 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+86113 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+86176 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+86611 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+86692 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+88156 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+90903 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+91717 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+91791 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+92092 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+92284 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+92432 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+95077 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+95899 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+95979 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+96303 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+96442 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+96590 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+99497 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+100287 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+100585 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+100893 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+100949 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+101117 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+101667 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+101783 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+103575 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+103672 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+105240 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+105293 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+105554 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+105559 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+106557 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+106577 [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+106577 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 4
+106586 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+106593 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+106618 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+117306 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = MainSetting<<<<<<<<<<<<<<<
+117348 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+120681 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+120688 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+120796 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+121414 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+121515 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+122146 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+122205 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+123905 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+125015 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+127005 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+127195 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+127777 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+127787 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+128305 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+128382 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+128899 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+128958 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+129305 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+129387 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+130870 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+130876 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+133708 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+135503 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+135696 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+136282 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+136291 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+136809 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+136878 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+137689 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+137752 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+137854 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+137950 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+139449 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+139455 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+140248 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+140413 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+142208 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+142314 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+143955 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+144040 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+144350 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+145149 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+145168 [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+145168 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 5
+145173 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+145178 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+145193 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+155909 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = photoInput()<<<<<<<<<<<<<<<
+155994 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+159327 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+159337 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+159421 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+160062 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+160161 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+160822 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+160893 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+162598 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+183571 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+183571 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .photo_edit
+183571 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+183575 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+183668 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+185627 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+185698 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+187272 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+187367 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+187777 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+188530 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+188547 [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+188547 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 6
+188555 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+188563 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+188589 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+199290 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = photoInput()<<<<<<<<<<<<<<<
+199346 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+202757 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+202811 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+202873 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+203487 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+203579 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+204223 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+204296 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+206013 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+226947 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+226947 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .photo_edit
+226947 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+226950 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+227045 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+229006 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+229068 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+230626 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+230698 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+231074 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+231832 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+231942 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+265  [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+274  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+3489 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+4201 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+6707 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+9441 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+9456 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+9534 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+9767 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+9777 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+10447 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = InvalidMyAccount()<<<<<<<<<<<<<<<
+10489 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+11274 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+11281 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+11372 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+11986 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+12768 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+13404 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+13495 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+15186 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+16176 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+18180 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+18333 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+18920 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+18929 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+19449 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+19501 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Эл. почта')
+19840 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Эл. почта')
+19854 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+20376 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+20443 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input |id: main_config_email |text: ('')
+20514 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input |id: main_config_email |text: ('')
+20574 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input |id: main_config_password |text: ('')
+21226 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input |id: main_config_password |text: ('')
+21308 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+22110 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+22122 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+22642 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+22793 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input |id: main_config_email |text: ('')
+23464 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input |id: main_config_email |text: ('')
+23509 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input |id: main_config_password |text: ('')
+24160 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input |id: main_config_password |text: ('')
+24232 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+24420 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+24445 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+24590 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input |id: main_config_email |text: ('')
+24829 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input |id: main_config_email |text: ('')
+24897 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input |id: main_config_password |text: ('')
+25524 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input |id: main_config_password |text: ('')
+25608 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+25775 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+25780 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+25900 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input |id: main_config_email |text: ('')
+26564 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input |id: main_config_email |text: ('')
+26644 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input |id: main_config_password |text: ('')
+26985 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input |id: main_config_password |text: ('')
+27066 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+27239 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+27245 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+27321 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+27447 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+28909 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+29068 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+30659 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+30799 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+31060 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+31069 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+31884 [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+31884 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 2
+31891 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+31901 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+31937 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+37678 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = MainSettInvalid<<<<<<<<<<<<<<<
+37764 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+41104 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+41109 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+41204 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+41824 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+41908 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+42572 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+42649 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+44358 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+45263 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+47360 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+47490 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+48085 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+48094 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+48609 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+48655 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+48708 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+48792 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+50288 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+50875 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+50953 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+52744 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+52787 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+54371 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+54450 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+54712 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+54718 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+55584 [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+55584 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 3
+55589 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+55594 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+55613 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+66338 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = aMainSettUrlInvalid<<<<<<<<<<<<<<<
+66426 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+69870 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+69880 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+69996 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+70622 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+70712 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+71346 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+71405 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+73112 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+74035 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+76085 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+76135 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+76733 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+76741 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+77259 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+77302 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+78105 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+78211 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+78660 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+78740 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+80225 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+82876 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+83675 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+83750 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+84106 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+84289 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+84443 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+87088 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+87913 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+87982 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+88243 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+88588 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+88730 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+91396 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+92186 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+92249 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+92544 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+92721 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+92897 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+93470 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+93554 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+95306 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+95474 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+97061 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+97126 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+97388 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+97398 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+98303 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+98325 [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+98325 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 4
+98333 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+98340 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+98371 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+109117 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = MainSetting<<<<<<<<<<<<<<<
+109198 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+112654 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+112665 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+112714 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+113326 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+113389 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+114007 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+114109 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+115772 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+116890 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+118873 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+119076 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+119655 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+119662 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+120179 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+120283 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+120796 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+120854 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+121216 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+121291 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+122801 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+122848 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+125471 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+127246 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+127449 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+128041 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+128057 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+128570 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+128649 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+129465 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input |id: teacher_config_name |text: ('')
+129512 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+129557 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input |id: teacher_config_short_url |text: ('')
+129640 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+131142 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+131154 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+131876 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+131910 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+132063 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+133913 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+134062 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+135579 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+135640 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+135907 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+135921 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded false
+136796 [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+136796 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 5
+136802 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+136811 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+136854 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+147591 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = photoInput()<<<<<<<<<<<<<<<
+147675 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+151044 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+151064 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+151156 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+151769 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+151858 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+152507 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+152570 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+154277 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+175272 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+175272 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .photo_edit
+175272 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+175276 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+175360 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+177310 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+177367 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+178934 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+179021 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+179363 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+180136 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+180154 [main] INFO  test.java.LogTest - ______________________________________class test.java.SettingTest______________________________________
+180154 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 6
+180163 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+180171 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+180208 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+190949 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = photoInput()<<<<<<<<<<<<<<<
+191039 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+194449 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+194478 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+194546 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+195163 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+195257 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+195891 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+195988 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+197693 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+218662 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+218662 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .photo_edit
+218663 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+218666 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+218775 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js__menuTrigger |text: ('')
+220752 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js__menuTrigger |text: ('')
+220802 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+222367 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+222406 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:span |id:  |text: ('Выйти')
+222775 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:span |id:  |text: ('Выйти')
+223515 [main] INFO  test.java.LogTest - ------------------------waitForPageLoaded true
+223607 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 

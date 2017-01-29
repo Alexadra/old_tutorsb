@@ -1,0 +1,34 @@
+411  [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+416  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+22650 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://tutorsband.com/'
+27955 [main] INFO  test.java.LogTest - ------------------------ true
+28125 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+31435 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+31546 [main] INFO  test.java.LogTest - ------------------------ true
+31656 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: lang_ru |text: ('Русский')
+31926 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: lang_ru |text: ('Русский')
+31949 [main] INFO  test.java.LogTest - ------------------------ false
+33020 [main] INFO  test.java.LogTest - _______________________________Test = googleValidLogin()_______________________________
+33026 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.gmail.com/'
+43936 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+44358 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+44438 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+45695 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+45788 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: signIn |text: ('')
+47175 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: signIn |text: ('')
+47175 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://tutorsband.com/'
+48326 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+50159 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+50376 [main] INFO  test.java.LogTest - ------------------------ true
+50501 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Google')
+51952 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Google')
+65069 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+65069 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.xpath: //div[@class='header__profile']//span[@class='userpic-user__name']
+65069 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+65069 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.gmail.com/'
+65858 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+68878 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+68879 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 2
+68885 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://mail.google.com/intl/ru/mail/help/about.html
+68892 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://tutorsband.com/'
+69812 [main] INFO  test.ja

@@ -1,0 +1,961 @@
+419  [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+542  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+8710 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+9710 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+15466 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+15530 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+15545 [main] INFO  test.java.LogTest - ------------------------ true
+15681 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+15749 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+15754 [main] INFO  test.java.LogTest - ------------------------ false
+16501 [main] INFO  test.java.LogTest - ------------------------ true
+16523 [main] INFO  test.java.LogTest - _______________________________Test = googleValidLogin()_______________________________
+26551 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+27337 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+37806 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+37872 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+37899 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+37970 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+38008 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: signIn |text: ('')
+39719 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: signIn |text: ('')
+40719 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+43004 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+43077 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+43084 [main] INFO  test.java.LogTest - ------------------------ true
+43155 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Google')
+43334 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Google')
+46341 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+46341 [main] ERROR test.java.LogTest - javascript error 1.SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead [https://www.google.com/settings/_/scs/ac-static/_/js/k=ac.s2.ru.2R8Y7APVFk4.O/m=b2,s2_p/am=QwAAAw/rt=j/d=1/rs=AItRSTO79bFyRpZmYlN8K7fxfgJCEhU09A:123]
+46341 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+46456 [main] INFO  test.java.LogTest - ------------------------ true
+46570 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+46627 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+46634 [main] INFO  test.java.LogTest - ------------------------ false
+47520 [main] INFO  test.java.LogTest - ------------------------ true
+47530 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+49112 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+52119 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+52119 [main] ERROR test.java.LogTest - javascript error 1.SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead [https://www.google.com/settings/_/scs/ac-static/_/js/k=ac.s2.ru.2R8Y7APVFk4.O/m=b2,s2_p/am=QwAAAw/rt=j/d=1/rs=AItRSTO79bFyRpZmYlN8K7fxfgJCEhU09A:123]
+52119 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+52141 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+52141 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 2
+52145 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://www.google.com/settings/personalinfo&followup=https://www.google.com/settings/personalinfo
+52148 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+52362 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+53197 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+53263 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+53296 [main] INFO  test.java.LogTest - ------------------------ true
+53392 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+53552 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+53560 [main] INFO  test.java.LogTest - ------------------------ true
+53577 [main] INFO  test.java.LogTest - _______________________Test = googleValidLoginPopup_______________________
+63639 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+63742 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+63750 [main] INFO  test.java.LogTest - ------------------------ true
+63866 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Google')
+64082 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Google')
+64786 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+64862 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+64888 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+64958 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+64997 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: signIn |text: ('')
+65757 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: signIn |text: ('')
+67937 [main] INFO  test.java.LogTest - ------------------------ true
+68025 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+68086 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+68091 [main] INFO  test.java.LogTest - ------------------------ false
+68950 [main] INFO  test.java.LogTest - ------------------------ true
+68960 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+70535 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+73544 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+73544 [main] ERROR test.java.LogTest - javascript error 1.SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead [https://www.google.com/settings/_/scs/ac-static/_/js/k=ac.s2.ru.2R8Y7APVFk4.O/m=b2,s2_p/am=QwAAAw/rt=j/d=1/rs=AItRSTO79bFyRpZmYlN8K7fxfgJCEhU09A:123]
+73544 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+73565 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+73566 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 3
+73569 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://www.google.com/settings/personalinfo&followup=https://www.google.com/settings/personalinfo
+73572 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+73745 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+74608 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+74688 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+74706 [main] INFO  test.java.LogTest - ------------------------ true
+74905 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+74963 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+74969 [main] INFO  test.java.LogTest - ------------------------ true
+74982 [main] INFO  test.java.LogTest - _______________________Test = invalidLoginNoEmail_______________________
+75048 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+75165 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+75170 [main] INFO  test.java.LogTest - ------------------------ true
+75252 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+75328 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+75388 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+75693 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+75770 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+75831 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+76062 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+76347 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+79449 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+79450 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+79450 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 4
+79453 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+79456 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+79573 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+80388 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+80474 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+80542 [main] INFO  test.java.LogTest - ------------------------ true
+80704 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+80771 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+80782 [main] INFO  test.java.LogTest - ------------------------ true
+80791 [main] INFO  test.java.LogTest - _______________________Test = invalidLoginNoPass_______________________
+80870 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+80974 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+80979 [main] INFO  test.java.LogTest - ------------------------ true
+81081 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+81227 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+81329 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+81419 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+81478 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+81549 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+82111 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+85192 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+85193 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+85193 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 5
+85196 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+85199 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+85351 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+86302 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+86370 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+86400 [main] INFO  test.java.LogTest - ------------------------ true
+86527 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+86586 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+86614 [main] INFO  test.java.LogTest - ------------------------ true
+86638 [main] INFO  test.java.LogTest - _______________________Test = invalidLoginWrongEmail_______________________
+86779 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+86883 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+86902 [main] INFO  test.java.LogTest - ------------------------ true
+87045 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+87128 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+87201 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+87330 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+87402 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+87475 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+88026 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+91119 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+91119 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+91119 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 6
+91123 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+91135 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+91284 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+92322 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+92403 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+92409 [main] INFO  test.java.LogTest - ------------------------ true
+92646 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+92710 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+92718 [main] INFO  test.java.LogTest - ------------------------ true
+92726 [main] INFO  test.java.LogTest - _______________________Test = invalidLoginWrongPass_______________________
+92802 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+92956 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+92961 [main] INFO  test.java.LogTest - ------------------------ true
+93121 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+93277 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+93336 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+93465 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+93539 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+93628 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+94174 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+97258 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+97258 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+97258 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 7
+97263 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+97279 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+97492 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+98564 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+98631 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+98647 [main] INFO  test.java.LogTest - ------------------------ true
+98748 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+98848 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+98856 [main] INFO  test.java.LogTest - ------------------------ true
+98866 [main] INFO  test.java.LogTest - _______________________Test = loginFBHangoutPopup_______________________
+108888 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+110135 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Ожидание автора
+01.01.70 в 3:00
+Бесплатно')
+110194 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Ожидание автора
+01.01.70 в 3:00
+Бесплатно')
+110529 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Страница не найдена".Текст переменной:cebook_Message ***not defined***"
+120621 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+120621 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .js_no_link.js_this_signup.js_login_and_participate.button.button_primary.js_tooltip
+120621 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+120624 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+123680 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Страница не найдена".Текст переменной:cebook_Message ***not defined***"
+123681 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+123681 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 8
+123684 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/conference/39234
+123687 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+123784 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+124651 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+124718 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+124734 [main] INFO  test.java.LogTest - ------------------------ true
+124928 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+124986 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+124991 [main] INFO  test.java.LogTest - ------------------------ true
+125002 [main] INFO  test.java.LogTest - _______________________Test = loginFromHeaderHangCreate_______________________
+135126 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_singcreate |text: ('Создать видеовстречу')
+135272 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_singcreate |text: ('Создать видеовстречу')
+135288 [main] INFO  test.java.LogTest - ------------------------ true
+135397 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+135570 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+135636 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Facebook')
+135704 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Facebook')
+137940 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+138024 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+138105 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+138182 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+138266 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: u_0_1 |text: ('')
+139800 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: u_0_1 |text: ('')
+139887 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+141438 [main] INFO  test.java.LogTest - ------------------------ true
+141557 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+141669 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+141674 [main] INFO  test.java.LogTest - ------------------------ false
+142606 [main] INFO  test.java.LogTest - ------------------------ true
+142630 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+146754 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+149782 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+149782 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 9
+149786 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://www.facebook.com/
+149789 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+150007 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+150790 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+150889 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+150919 [main] INFO  test.java.LogTest - ------------------------ true
+151014 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+151196 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+151202 [main] INFO  test.java.LogTest - ------------------------ true
+151307 [main] INFO  test.java.LogTest - _______________________Test = loginFromChat_______________________
+161332 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//chat'
+162151 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+162252 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+162294 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+162441 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+162484 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+162542 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+169706 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Тех. поддержка - Чат".Текст переменной:cebook_Message ***not defined***"
+169717 [main] INFO  test.java.LogTest - ------------------------ true
+169866 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+170015 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+170878 [main] INFO  test.java.LogTest - ------------------------ true
+170890 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+173968 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+173968 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+173969 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 10
+173973 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+173994 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+174094 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+174888 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+174982 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+174996 [main] INFO  test.java.LogTest - ------------------------ true
+175177 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+175237 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+175241 [main] INFO  test.java.LogTest - ------------------------ true
+175249 [main] INFO  test.java.LogTest - _______________________Test = loginFromComments_______________________
+185276 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+186602 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Проходит сейчас
+04.06.14 в 16:07
+test super
+Alexander
+10 TBM')
+186660 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Проходит сейчас
+04.06.14 в 16:07
+test super
+Alexander
+10 TBM')
+186755 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Поиск".Текст переменной:cebook_Message ***not defined***"
+187569 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Войти')
+189303 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Войти')
+189345 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+189436 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+189468 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+189559 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+189608 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+189665 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+190497 [main] INFO  test.java.LogTest - ------------------------ true
+190587 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+190687 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+192046 [main] INFO  test.java.LogTest - ------------------------ true
+192056 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+195161 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+195161 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+195162 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 11
+195166 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+195170 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+195352 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+196630 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+196704 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+196713 [main] INFO  test.java.LogTest - ------------------------ true
+196838 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+196946 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+196951 [main] INFO  test.java.LogTest - ------------------------ true
+196974 [main] INFO  test.java.LogTest - _______________________Test = loginFromFollowers_______________________
+206983 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/contacts/15301/followers'
+207909 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+208017 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+208050 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+208270 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+208359 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+208441 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+209269 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Подписчики".Текст переменной:cebook_Message ***not defined***"
+209280 [main] INFO  test.java.LogTest - ------------------------ true
+209416 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+209518 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+209526 [main] INFO  test.java.LogTest - ------------------------ false
+210429 [main] INFO  test.java.LogTest - ------------------------ true
+210470 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+213556 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+213557 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+213557 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 12
+213561 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+213567 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+213743 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+215086 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+215227 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+215268 [main] INFO  test.java.LogTest - ------------------------ true
+215469 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+215564 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+215588 [main] INFO  test.java.LogTest - ------------------------ true
+215599 [main] INFO  test.java.LogTest - _______________________Test = loginFromFollowing_______________________
+225613 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/contacts/15301'
+226473 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+226572 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+226606 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+226700 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+226832 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+226905 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+227696 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Подписки".Текст переменной:cebook_Message ***not defined***"
+227707 [main] INFO  test.java.LogTest - ------------------------ true
+227786 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+227909 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+228869 [main] INFO  test.java.LogTest - ------------------------ true
+228899 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+231976 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+231977 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+231978 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 13
+231985 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+231989 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+232131 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+233554 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+233612 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+233625 [main] INFO  test.java.LogTest - ------------------------ true
+233788 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+233862 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+233870 [main] INFO  test.java.LogTest - ------------------------ true
+233879 [main] INFO  test.java.LogTest - _______________________Test = loginFromHangCreate_______________________
+243895 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/hangout/create'
+245597 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+245687 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+245721 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+245806 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+245854 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+245912 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+246792 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Новая видеовстреча".Текст переменной:cebook_Message ***not defined***"
+246803 [main] INFO  test.java.LogTest - ------------------------ true
+247056 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+247113 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+247119 [main] INFO  test.java.LogTest - ------------------------ false
+248088 [main] INFO  test.java.LogTest - ------------------------ true
+248097 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+251189 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+251190 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+251190 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 14
+251195 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+251216 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+251330 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+252470 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+252565 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+252571 [main] INFO  test.java.LogTest - ------------------------ true
+252790 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+252855 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+252864 [main] INFO  test.java.LogTest - ------------------------ true
+252890 [main] INFO  test.java.LogTest - _______________________Test = loginFromHangoutHeader_______________________
+262901 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+264115 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Проходит сейчас
+04.06.14 в 16:07
+test super
+Alexander
+10 TBM')
+264174 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Проходит сейчас
+04.06.14 в 16:07
+test super
+Alexander
+10 TBM')
+264483 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Видеовстреча "test super"".Текст переменной:cebook_Message ***not defined***"
+264516 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+264597 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+264605 [main] INFO  test.java.LogTest - ------------------------ true
+264671 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+264772 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+264804 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+264887 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+264925 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+264983 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+265745 [main] INFO  test.java.LogTest - ------------------------ true
+265822 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+265949 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+266884 [main] INFO  test.java.LogTest - ------------------------ true
+266907 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+269994 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+269995 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+269995 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 15
+270000 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+270005 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+270111 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+271282 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+271451 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+271489 [main] INFO  test.java.LogTest - ------------------------ true
+271567 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+271655 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+271692 [main] INFO  test.java.LogTest - ------------------------ true
+271719 [main] INFO  test.java.LogTest - _______________________Test = loginFromHangoutPopup_______________________
+281727 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+282989 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Ожидание автора
+01.01.70 в 3:00
+Бесплатно')
+283090 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Ожидание автора
+01.01.70 в 3:00
+Бесплатно')
+283378 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Страница не найдена".Текст переменной:cebook_Message ***not defined***"
+293408 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+293408 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .js_no_link.js_this_signup.js_login_and_participate.button.button_primary.js_tooltip
+293408 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+293410 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+296460 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Страница не найдена".Текст переменной:cebook_Message ***not defined***"
+296461 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+296461 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 16
+296464 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/conference/39234
+296468 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+296554 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+297492 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+297667 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+297745 [main] INFO  test.java.LogTest - ------------------------ true
+297819 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+297887 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+297896 [main] INFO  test.java.LogTest - ------------------------ true
+297906 [main] INFO  test.java.LogTest - _______________________Test = loginFromHeaderHangCreate_______________________
+307999 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_singcreate |text: ('Создать видеовстречу')
+308149 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_singcreate |text: ('Создать видеовстречу')
+308169 [main] INFO  test.java.LogTest - ------------------------ true
+308258 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+308431 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+308482 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+308596 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+308629 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+308733 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+308782 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+308840 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+309863 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Новая видеовстреча".Текст переменной:cebook_Message ***not defined***"
+309943 [main] INFO  test.java.LogTest - ------------------------ true
+310029 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+310086 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+310090 [main] INFO  test.java.LogTest - ------------------------ false
+311043 [main] INFO  test.java.LogTest - ------------------------ true
+311090 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+314195 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+314195 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+314195 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 17
+314199 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+314208 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+314367 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+315453 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+315587 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+315857 [main] INFO  test.java.LogTest - ------------------------ true
+315948 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+316010 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+316018 [main] INFO  test.java.LogTest - ------------------------ true
+316028 [main] INFO  test.java.LogTest - _______________________Test = loginFromMoney_______________________
+326086 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//tmoney/history'
+327288 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+327379 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+327420 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+327511 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+327548 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+327607 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+328509 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Личный счет".Текст переменной:cebook_Message ***not defined***"
+328520 [main] INFO  test.java.LogTest - ------------------------ true
+328600 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+328720 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+329710 [main] INFO  test.java.LogTest - ------------------------ true
+329720 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+332814 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+332815 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+332815 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 18
+332822 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+332825 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+332976 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+333933 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+334050 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+334057 [main] INFO  test.java.LogTest - ------------------------ true
+334413 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+334470 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+334487 [main] INFO  test.java.LogTest - ------------------------ true
+334500 [main] INFO  test.java.LogTest - _______________________Test = loginFromNews_______________________
+344513 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//news'
+345715 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+345807 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+345840 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+345929 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+345966 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+346027 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+346891 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Новости".Текст переменной:cebook_Message ***not defined***"
+346904 [main] INFO  test.java.LogTest - ------------------------ true
+346979 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+347149 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+348216 [main] INFO  test.java.LogTest - ------------------------ true
+348228 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+351333 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+351333 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+351334 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 19
+351348 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+351353 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+351481 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+352402 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+352551 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+352562 [main] INFO  test.java.LogTest - ------------------------ true
+352962 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+353039 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+353045 [main] INFO  test.java.LogTest - ------------------------ true
+353076 [main] INFO  test.java.LogTest - _______________________Test = loginFromSettAccount_______________________
+363085 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//config/account'
+363908 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+364006 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+364042 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+364169 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+364237 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+364294 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+365035 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Настройки".Текст переменной:cebook_Message ***not defined***"
+365054 [main] INFO  test.java.LogTest - ------------------------ true
+365193 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+365328 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+366323 [main] INFO  test.java.LogTest - ------------------------ true
+366337 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+369510 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+369511 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+369511 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 20
+369526 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+369531 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+369639 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+370943 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+371046 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+371079 [main] INFO  test.java.LogTest - ------------------------ true
+371188 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+371281 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+371286 [main] INFO  test.java.LogTest - ------------------------ true
+371328 [main] INFO  test.java.LogTest - _______________________Test = loginFromSettings_______________________
+381335 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//config'
+382604 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+382699 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+382732 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+382823 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+382878 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+382936 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+383816 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Настройки".Текст переменной:cebook_Message ***not defined***"
+383834 [main] INFO  test.java.LogTest - ------------------------ true
+383911 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+384040 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+384045 [main] INFO  test.java.LogTest - ------------------------ false
+385192 [main] INFO  test.java.LogTest - ------------------------ false
+385735 [main] INFO  test.java.LogTest - ------------------------ false
+386246 [main] INFO  test.java.LogTest - ------------------------ true
+386259 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+389369 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+389370 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+389370 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 21
+389386 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+389390 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+389507 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+390469 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+390583 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+390623 [main] INFO  test.java.LogTest - ------------------------ true
+390796 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+390861 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+390875 [main] INFO  test.java.LogTest - ------------------------ true
+390903 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+400934 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+402127 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Записи встреч
+106')
+402185 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Записи встреч
+106')
+402191 [main] INFO  test.java.LogTest - ------------------------ false
+402699 [main] INFO  test.java.LogTest - ------------------------ true
+412725 [main] INFO  test.java.LogTest - pagesInt9
+412760 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('9')
+412817 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('9')
+412818 [main] INFO  test.java.LogTest - pagesInt after -- 8
+412853 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('8')
+412910 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('8')
+412910 [main] INFO  test.java.LogTest - pagesInt after -- 7
+412952 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('7')
+423953 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+423957 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 11.00 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:15'
+System info: host: 'alexandra-System-Product-Name', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_60'
+Session ID: 1ab11c1e-7557-4c7f-871a-0d9034f6ae53
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=29.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_60]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_60]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_60]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_60]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193) ~[selenium-server-standalone-2.39.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.39.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.39.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.39.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79) ~[selenium-server-standalone-2.39.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor18.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_60]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331) ~[selenium-server-standalone-2.39.0.jar:na]
+	at com.sun.proxy.$Proxy10.click(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:344) ~[selenium-server-standalone-2.39.0.jar:na]
+	at main.pages.SearchPage.openFirstPaidVideo(SearchPage.java:112) ~[classes/:na]
+	at test.java.LogTest.loginFromVideoPay(LogTest.java:564) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_60]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_60]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_60]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_60]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.39.0', revision: 'ff23eac', time: '2013-12-16 16:11:15'
+System info: host: 'alexandra-System-Product-Name', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_60'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7584) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous4490870863932104474webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:7197) ~[na:na]
+	at <anonymous class>.fxdriver.preconditions.visible(file:///tmp/anonymous4490870863932104474webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8177) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///tmp/anonymous4490870863932104474webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10814) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous4490870863932104474webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous4490870863932104474webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:396) ~[na:na]
+423957 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+423962 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+427020 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Поиск".Текст переменной:cebook_Message ***not defined***"
+427020 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+427020 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 22
+427026 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/search?t=2&page=8
+427030 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+427211 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+428694 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+428753 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+428760 [main] INFO  test.java.LogTest - ------------------------ true
+428915 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+428966 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+428981 [main] INFO  test.java.LogTest - ------------------------ true
+428999 [main] INFO  test.java.LogTest - _______________________Test = loginGMHangoutPopup_______________________
+439009 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+440338 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Ожидание автора
+01.01.70 в 3:00
+Бесплатно')
+440396 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Ожидание автора
+01.01.70 в 3:00
+Бесплатно')
+440490 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Поиск".Текст переменной:cebook_Message ***not defined***"
+450543 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+450543 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .js_no_link.js_this_signup.js_login_and_participate.button.button_primary.js_tooltip
+450543 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+450544 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+453593 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Страница не найдена".Текст переменной:cebook_Message ***not defined***"
+453593 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+453593 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 23
+453596 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/conference/39234
+453599 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+453784 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+455031 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+455090 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+455096 [main] INFO  test.java.LogTest - ------------------------ true
+455259 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+455324 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+455328 [main] INFO  test.java.LogTest - ------------------------ true
+455348 [main] INFO  test.java.LogTest - _______________________Test = loginFromHeaderHangCreate_______________________
+465417 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_singcreate |text: ('Создать видеовстречу')
+465546 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_singcreate |text: ('Создать видеовстречу')
+465565 [main] INFO  test.java.LogTest - ------------------------ true
+465742 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+465916 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+465978 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Google')
+466187 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Google')
+467498 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+467648 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+467677 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+467811 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+467868 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: signIn |text: ('')
+469060 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: signIn |text: ('')
+470184 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+471285 [main] INFO  test.java.LogTest - ------------------------ true
+471442 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+471499 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+471504 [main] INFO  test.java.LogTest - ------------------------ false
+472773 [main] INFO  test.java.LogTest - ------------------------ true
+472818 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://accounts.google.com'
+475407 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+478413 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+478413 [main] ERROR test.java.LogTest - javascript error 1.SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead [https://www.google.com/settings/_/scs/ac-static/_/js/k=ac.s2.ru.2R8Y7APVFk4.O/m=b2,s2_p/am=QwAAAw/rt=j/d=1/rs=AItRSTO79bFyRpZmYlN8K7fxfgJCEhU09A:123]
+478413 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+478435 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+478435 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 24
+478493 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://www.google.com/settings/personalinfo&followup=https://www.google.com/settings/personalinfo
+478497 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+478869 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+480385 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+480522 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+480540 [main] INFO  test.java.LogTest - ------------------------ true
+480598 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+480662 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+480671 [main] INFO  test.java.LogTest - ------------------------ true
+480680 [main] INFO  test.java.LogTest - _______________________Test = invalidLoginWrongPass_______________________
+480755 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+480876 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+480910 [main] INFO  test.java.LogTest - ------------------------ true
+481071 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Создайте свой аккаунт!')
+481276 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Создайте свой аккаунт!')
+481825 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+482058 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+482106 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+485182 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+485183 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+485183 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 25
+485225 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+485229 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+485437 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+486545 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+486633 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+486693 [main] INFO  test.java.LogTest - ------------------------ true
+486897 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+486971 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+486976 [main] INFO  test.java.LogTest - ------------------------ true
+486999 [main] INFO  test.java.LogTest - _______________________________Test = validLoginPage_______________________________
+487000 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/login'
+488018 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+488114 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+488149 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+488238 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+488291 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+488350 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+491677 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Petrikov Vasilii Ivanovich - Видеовстречи".Текст переменной:cebook_Message ***not defined***"
+491704 [main] INFO  test.java.LogTest - ------------------------ true
+491835 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+491915 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+491922 [main] INFO  test.java.LogTest - ------------------------ false
+493208 [main] INFO  test.java.LogTest - ------------------------ true
+493220 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+496318 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+496318 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+496318 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 26
+496323 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+496327 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+496456 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+497709 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+497796 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+497805 [main] INFO  test.java.LogTest - ------------------------ true
+498012 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+498083 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+498091 [main] INFO  test.java.LogTest - ------------------------ true
+498121 [main] INFO  test.java.LogTest - _______________________________Test = validLoginPopup_______________________________
+498207 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+498441 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+498459 [main] INFO  test.java.LogTest - ------------------------ true
+498559 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+498726 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+498949 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+499109 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+499246 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+499349 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+500409 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Petrikov Vasilii Ivanovich - Видеовстречи".Текст переменной:cebook_Message ***not defined***"
+500437 [main] INFO  test.java.LogTest - ------------------------ true
+500724 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+500782 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+500791 [main] INFO  test.java.LogTest - ------------------------ false
+501792 [main] INFO  test.java.LogTest - ------------------------ true
+501802 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+504901 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+504901 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+504901 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 27
+504920 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/
+504925 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+505109 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+506866 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+506925 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+506933 [main] INFO  test.java.LogTest - ------------------------ true
+507056 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+507140 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+507158 [main] INFO  test.java.LogTest - ------------------------ true
+507169 [main] INFO  test.java.LogTest - _______________________Test = captchaWrongPass_______________________
+507246 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+507363 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+507368 [main] INFO  test.java.LogTest - ------------------------ true
+507468 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+507630 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+507784 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+507897 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+507964 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+508049 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+508124 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+508346 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+508407 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+508498 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+508630 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+508718 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+508768 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+508963 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+509047 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+509132 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+509294 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+509370 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+509431 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+509645 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+509715 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+509814 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+509937 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+510064 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+510404 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+510557 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+510595 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+510693 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+510854 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+510913 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+510971 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+511205 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+511285 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+511410 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+511604 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+511679 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+511684 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+514749 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+514749 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+514749 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 28
+514763 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://testun.com.ua/#signin
+514767 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+514873 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+515720 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+515886 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+515984 [main] INFO  test.java.LogTest - ------------------------ true
+516064 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+516169 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+516178 [main] INFO  test.java.LogTest - ------------------------ true
+516225 [main] INFO  test.java.LogTest - _______________________________Test = facebookValidLogin()_______________________________
+516225 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+516944 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+517015 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+517048 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+517104 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+517149 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: u_0_n |text: ('')
+517819 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: u_0_n |text: ('')
+517819 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+555944 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+556081 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+556169 [main] INFO  test.java.LogTest - ------------------------ true
+556427 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Facebook')
+556610 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Facebook')
+558351 [main] INFO  test.java.LogTest - ------------------------ true
+558449 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+558638 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+559754 [main] INFO  test.java.LogTest - ------------------------ true
+559764 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+696336 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+725929 [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+725929 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 29
+725933 [main] DEBUG main.Driver.WebDriverFactory - getDriver: Current url: https://www.facebook.com/
+725935 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+726162 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+727219 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+727282 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+727287 [main] INFO  test.java.LogTest - ------------------------ true
+727417 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+727499 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+727504 [main] INFO  test.java.LogTest - ------------------------ true
+727533 [main] INFO  test.java.LogTest - _______________________________Test = facebookValidLoginPopup()_______________________________
+737603 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+737712 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+737722 [main] INFO  test.java.LogTest - ------------------------ true
+737809 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Вход через Facebook')
+737896 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Вход через Facebook')
+739124 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+739185 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input |id: email |text: ('')
+739231 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+739283 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input |id: pass |text: ('')
+739322 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: u_0_1 |text: ('')
+740238 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: u_0_1 |text: ('')
+741642 [main] INFO  test.java.LogTest - ------------------------ true
+741724 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+741784 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+741793 [main] INFO  test.java.LogTest - ------------------------ false
+742679 [main] INFO  test.java.LogTest - ------------------------ true
+742695 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+783549 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+830444 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+366  [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+375  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+3562 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+4470 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+12519 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+12577 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+12591 [main] INFO  test.java.LogTest - ------------------------ true
+12641 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+12700 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+12705 [main] INFO  test.java.LogTest - ------------------------ false
+15389 [main] INFO  test.java.LogTest - ------------------------ true
+15401 [main] INFO  test.java.LogTest - _______________________Test = loginFromVideoPay _______________________
+25410 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+27124 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Записи встреч
+104')
+27181 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Записи встреч
+104')
+27190 [main] INFO  test.java.LogTest - ------------------------ false
+27699 [main] INFO  test.java.LogTest - ------------------------ true
+27816 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('00:02
+22.05.14 в 12:57
+dgf
+Сергей Крылов
+1 TBM')
+27874 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('00:02
+22.05.14 в 12:57
+dgf
+Сергей Крылов
+1 TBM')
+27958 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Поиск".Текст переменной:cebook_Message ***not defined***"
+28343 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Купить видео')
+28535 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Купить видео')
+28539 [main] INFO  test.java.LogTest - ------------------------ true
+28629 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите')
+28788 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите')
+28883 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+28976 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+29008 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+29087 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+29125 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+29182 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+30736 [main] INFO  test.java.LogTest - ------------------------ true
+30881 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+31001 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+32011 [main] INFO  test.java.LogTest - ------------------------ true
+32041 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+35110 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Tutorsband".Текст переменной:cebook_Message ***not defined***"
+35178 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 

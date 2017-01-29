@@ -1,0 +1,464 @@
+480  [main] INFO  test.java.LogTest - ______________________________________class test.java.LogTest______________________________________
+496  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+4558 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+5419 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+9160 [main] INFO  test.java.LogTest - ------------------------ true
+9296 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+12651 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+12660 [main] INFO  test.java.LogTest - ------------------------ true
+12769 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: lang_ru |text: ('Русский')
+13035 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: lang_ru |text: ('Русский')
+13046 [main] INFO  test.java.LogTest - ------------------------ false
+13814 [main] INFO  test.java.LogTest - ------------------------ true
+13842 [main] INFO  test.java.LogTest - _______________________Test = loginFromHangoutPopup_______________________
+13847 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua//search'
+14858 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Записи встреч
+4')
+17577 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Записи встреч
+4')
+18139 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('17.10.13 в 16:04
+1 TBM
+Позитивная психотерапия: теория и практика
+Светлана Игоревна')
+19985 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('17.10.13 в 16:04
+1 TBM
+Позитивная психотерапия: теория и практика
+Светлана Игоревна')
+20695 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Купить видео - 1 TBM')
+21475 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Купить видео - 1 TBM')
+21483 [main] INFO  test.java.LogTest - ------------------------ true
+21548 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('войдите в систему')
+22078 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('войдите в систему')
+22148 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+23291 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+23339 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+23980 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+24040 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+24945 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+28683 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+29452 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+29460 [main] INFO  test.java.LogTest - ------------------------ false
+30351 [main] INFO  test.java.LogTest - ------------------------ true
+30370 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+33389 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33389 [main] ERROR test.java.LogTest - javascript error 1.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+33389 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33389 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33390 [main] ERROR test.java.LogTest - javascript error 2.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+33390 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33390 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33390 [main] ERROR test.java.LogTest - javascript error 3.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+33390 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33390 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33390 [main] ERROR test.java.LogTest - javascript error 4.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+33390 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33390 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33390 [main] ERROR test.java.LogTest - javascript error 5.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+33390 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33391 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33391 [main] ERROR test.java.LogTest - javascript error 6.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+33391 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+33536 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+273  [main] INFO  test.java.LogTest - ______________________________________class test.java.ChatTest______________________________________
+278  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+3754 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+10044 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+37182 [main] INFO  test.java.LogTest - ------------------------ true
+37289 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+40625 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+40644 [main] INFO  test.java.LogTest - ------------------------ true
+40759 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: lang_ru |text: ('Русский')
+41021 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: lang_ru |text: ('Русский')
+41030 [main] INFO  test.java.LogTest - ------------------------ false
+42570 [main] INFO  test.java.LogTest - ------------------------ true
+42597 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = privateVideo()<<<<<<<<<<<<<<<
+42697 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+44062 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+44069 [main] INFO  test.java.LogTest - ------------------------ true
+44141 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+44760 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+45428 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+46063 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+46137 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+48218 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+50601 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+51692 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+52497 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: chat_search from 'tag:input |id: chat_search |text: ('')
+52502 [main] INFO  test.java.LogTest - ------------------------ true
+52528 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+55543 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+55543 [main] ERROR test.java.LogTest - javascript error 1.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+55543 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+55543 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+55543 [main] ERROR test.java.LogTest - javascript error 2.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+55543 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+58519 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+59306 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+59311 [main] INFO  test.java.LogTest - ------------------------ false
+60198 [main] INFO  test.java.LogTest - ------------------------ true
+60411 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+277  [main] INFO  test.java.LogTest - ______________________________________class test.java.ChatTest______________________________________
+281  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+3968 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+5557 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+23810 [main] INFO  test.java.LogTest - ------------------------ true
+23960 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+27234 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+27246 [main] INFO  test.java.LogTest - ------------------------ true
+27373 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: lang_ru |text: ('Русский')
+27639 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: lang_ru |text: ('Русский')
+27657 [main] INFO  test.java.LogTest - ------------------------ false
+28047 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+28052 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.WebDriverException: window.jQuery is undefined
+Command duration or timeout: 313 milliseconds
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Session ID: 963834c2-cc08-4000-96ca-2f82883ad5ef
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=23.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_25]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_25]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463) ~[selenium-server-standalone-2.35.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy8.executeScript(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:209) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.pages.BaseClass$1.apply(BaseClass.java:89) [classes/:na]
+	at main.pages.BaseClass$1.apply(BaseClass.java:1) [classes/:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208) [selenium-server-standalone-2.35.0.jar:na]
+	at main.pages.BaseClass.waitForPageLoaded(BaseClass.java:94) [classes/:na]
+	at main.pages.BaseClass.selectLang(BaseClass.java:107) [classes/:na]
+	at test.java.ChatTest.setup(ChatTest.java:45) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: window.jQuery is undefined
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.anonymous(https://testun.com.ua/:60) ~[na:na]
+	at <anonymous class>.handleEvaluateEvent(https://testun.com.ua/:60) ~[na:na]
+28052 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+30276 [main] ERROR m.Driver.MyWebDriverEventListener - ------------------------js error--------------------
+30276 [main] ERROR m.Driver.MyWebDriverEventListener - javascript error 1.{errorMessage=TypeError: cv(...) is null, console=null, sourceName=https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0, lineNumber=282, __fxdriver_unwrapped=true}
+30276 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+30276 [main] ERROR m.Driver.MyWebDriverEventListener - ------------------------js error--------------------
+30276 [main] ERROR m.Driver.MyWebDriverEventListener - javascript error 2.{errorMessage=TypeError: cv(...) is null, console=null, sourceName=https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0, lineNumber=282, __fxdriver_unwrapped=true}
+30276 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+30276 [main] INFO  test.java.LogTest - window.jQuery is undefined
+Command duration or timeout: 313 milliseconds
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Session ID: 963834c2-cc08-4000-96ca-2f82883ad5ef
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=23.0}]
+30285 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = privateVideo()<<<<<<<<<<<<<<<
+30358 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+31775 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+31884 [main] INFO  test.java.LogTest - ------------------------ true
+31947 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+33212 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+33292 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+33994 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+34066 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+36173 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+39773 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+40713 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+42162 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: chat_search from 'tag:input |id: chat_search |text: ('')
+42168 [main] INFO  test.java.LogTest - ------------------------ true
+42196 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+45216 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45216 [main] ERROR test.java.LogTest - javascript error 1.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+45216 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45216 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45216 [main] ERROR test.java.LogTest - javascript error 2.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+45217 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+58560 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+60633 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+60635 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423) ~[selenium-server-standalone-2.35.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:98) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:162) [classes/:na]
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:367) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.35.0.jar:na]
+	... 11 common frames omitted
+60635 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+60637 [Thread-0] WARN  main.Driver.WebDriverFactory - Driver killing error
+org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:364) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.MyWebDriverEventListener.onException(MyWebDriverEventListener.java:65) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy7.onException(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:98) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:162) ~[classes/:na]
+275  [main] INFO  test.java.LogTest - ______________________________________class test.java.ChatTest______________________________________
+279  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+8846 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+10162 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+26442 [main] INFO  test.java.LogTest - ------------------------ true
+26573 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+29915 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+29920 [main] INFO  test.java.LogTest - ------------------------ true
+30023 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: lang_ru |text: ('Русский')
+30286 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: lang_ru |text: ('Русский')
+30291 [main] INFO  test.java.LogTest - ------------------------ false
+32441 [main] INFO  test.java.LogTest - ------------------------ true
+32492 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = privateVideo()<<<<<<<<<<<<<<<
+32565 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+33933 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+33944 [main] INFO  test.java.LogTest - ------------------------ true
+34022 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+34636 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+35390 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+36019 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+36078 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+38179 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+40322 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+41416 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+42508 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: chat_search from 'tag:input |id: chat_search |text: ('')
+42518 [main] INFO  test.java.LogTest - ------------------------ true
+42558 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+45575 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45575 [main] ERROR test.java.LogTest - javascript error 1.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/exm=plusone/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_1:115]
+45576 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45576 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45576 [main] ERROR test.java.LogTest - javascript error 2.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+45576 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45576 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45576 [main] ERROR test.java.LogTest - javascript error 3.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+45576 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45576 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45576 [main] ERROR test.java.LogTest - javascript error 4.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+45576 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45576 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+45577 [main] ERROR test.java.LogTest - javascript error 5.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+45577 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+48526 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+49306 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+49316 [main] INFO  test.java.LogTest - ------------------------ false
+51090 [main] INFO  test.java.LogTest - ------------------------ true
+51335 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+53413 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+53418 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423) ~[selenium-server-standalone-2.35.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:98) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:162) [classes/:na]
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:367) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.35.0.jar:na]
+	... 11 common frames omitted
+53418 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+53419 [Thread-0] WARN  main.Driver.WebDriverFactory - Driver killing error
+org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:364) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.MyWebDriverEventListener.onException(MyWebDriverEventListener.java:65) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy7.onException(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:98) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:162) ~[classes/:na]
+278  [main] INFO  test.java.LogTest - ______________________________________class test.java.ChatTest______________________________________
+282  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+3919 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+5050 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+16431 [main] INFO  test.java.LogTest - ------------------------ true
+16564 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+19850 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+19855 [main] INFO  test.java.LogTest - ------------------------ true
+20015 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: lang_ru |text: ('Русский')
+20277 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: lang_ru |text: ('Русский')
+20282 [main] INFO  test.java.LogTest - ------------------------ false
+21298 [main] INFO  test.java.LogTest - ------------------------ true
+21326 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = privateVideo()<<<<<<<<<<<<<<<
+21419 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+22793 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+23302 [main] INFO  test.java.LogTest - ------------------------ true
+23376 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+23993 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+24677 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+25299 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+25367 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+27457 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+29590 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+30687 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+32080 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: chat_search from 'tag:input |id: chat_search |text: ('')
+32089 [main] INFO  test.java.LogTest - ------------------------ true
+32171 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+35184 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+35184 [main] ERROR test.java.LogTest - javascript error 1.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+35184 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+35184 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+35184 [main] ERROR test.java.LogTest - javascript error 2.TypeError: cv(...) is null [https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.uk.tchfCYWvKH8.O/m=client/rt=j/sv=1/d=1/ed=1/am=Aw/rs=AItRSTO6b-2u9_LcWt3A3o-7saOddi8Bfg/cb=gapi.loaded_0:282]
+35184 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+38126 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+38889 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+38895 [main] INFO  test.java.LogTest - ------------------------ false
+39963 [main] INFO  test.java.LogTest - ------------------------ true
+40020 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+42094 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+42099 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423) ~[selenium-server-standalone-2.35.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:98) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:162) [classes/:na]
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:367) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.35.0.jar:na]
+	... 11 common frames omitted
+42100 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+42100 [Thread-0] WARN  main.Driver.WebDriverFactory - Driver killing error
+org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:364) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.MyWebDriverEventListener.onException(MyWebDriverEventListener.java:65) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy7.onException(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:98) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:162) ~[classes/:na]

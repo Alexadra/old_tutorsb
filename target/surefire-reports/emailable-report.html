@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">test.java</td><td class="numi">5</td><td class="numi">5</td><td class="numi_attn">3</td><td class="numi_attn">1</td><td class="numi">73.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">test.java &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="4">test.java.SettingTest</td><td><a href="#m1"><b>unLogin</b>  </a></td><td class="numi">4</td><td>1364565670760</td><td class="numi">30134</td></tr><tr class="failedodd"><td><a href="#m2"><b>unLogin</b>  </a></td><td class="numi">4</td><td>1364565670760</td><td class="numi">30134</td></tr><tr class="failedodd"><td><a href="#m3"><b>unLogin</b>  </a></td><td class="numi">4</td><td>1364565670760</td><td class="numi">30134</td></tr><tr class="failedodd"><td><a href="#m4"><b>unLogin</b>  </a></td><td class="numi">4</td><td>1364565670760</td><td class="numi">30134</td></tr>
+<tr><th colspan="4">test.java &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">test.java.SettingTest</td><td><a href="#m5"><b>InvalidMyAccount</b>  </a></td><td class="numi">1</td><td>1364565656559</td><td class="numi">14194</td></tr>
+<tr><th colspan="4">test.java &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">test.java.SettingTest</td><td><a href="#m6"><b>setup</b>  </a></td><td class="numi">3</td><td>1364565680827</td><td class="numi">20066</td></tr>
+<tr><th colspan="4">test.java &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="3">test.java.SettingTest</td><td><a href="#m7"><b>MainSettInvalid</b>  </a></td><td class="numi">1</td><td>1364565680828</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m8"><b>MainSetting</b>  </a></td><td class="numi">1</td><td>1364565690853</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m9"><b>aMainSettUrlInvalid</b>  </a></td><td class="numi">1</td><td>1364565700894</td><td class="numi">0</td></tr>
+<tr><th colspan="4">test.java &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">test.java.LogTest</td><td><a href="#m10"><b>invalidLoginNoEmail</b>  </a></td><td class="numi">1</td><td>1364565710969</td><td class="numi">2497</td></tr><tr class="passedodd"><td><a href="#m11"><b>invalidLoginNoPass</b>  </a></td><td class="numi">1</td><td>1364565713486</td><td class="numi">2254</td></tr><tr class="passedodd"><td><a href="#m12"><b>invalidLoginWrongEmail</b>  </a></td><td class="numi">1</td><td>1364565715756</td><td class="numi">3603</td></tr><tr class="passedodd"><td><a href="#m13"><b>invalidLoginWrongPass</b>  </a></td><td class="numi">1</td><td>1364565719386</td><td class="numi">2644</td></tr><tr class="passedodd"><td><a href="#m14"><b>validLogin</b>  </a></td><td class="numi">1</td><td>1364565722057</td><td class="numi">4985</td></tr>
+</table>
+<h1>test.java</h1>
+<h2 id="m1">test.java.SettingTest:unLogin</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:216)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:601)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+<br/>at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+<br/>at com.sun.proxy.$Proxy9.click(Unknown Source)
+<br/>at main.pages.MyPage.exit(MyPage.java:78)
+<br/>at test.java.SettingTest.unLogin(SettingTest.java:46)
+<br/>36 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">test.java.SettingTest:unLogin</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:216)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:601)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+<br/>at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+<br/>at com.sun.proxy.$Proxy9.click(Unknown Source)
+<br/>at main.pages.MyPage.exit(MyPage.java:78)
+<br/>at test.java.SettingTest.unLogin(SettingTest.java:46)
+<br/>36 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">test.java.SettingTest:unLogin</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:216)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:601)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+<br/>at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+<br/>at com.sun.proxy.$Proxy9.click(Unknown Source)
+<br/>at main.pages.MyPage.exit(MyPage.java:78)
+<br/>at test.java.SettingTest.unLogin(SettingTest.java:46)
+<br/>36 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">test.java.SettingTest:unLogin</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:216)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:601)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+<br/>at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+<br/>at com.sun.proxy.$Proxy9.click(Unknown Source)
+<br/>at main.pages.MyPage.exit(MyPage.java:78)
+<br/>at test.java.SettingTest.unLogin(SettingTest.java:46)
+<br/>36 lines not shown
+<p>Caused by Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">test.java.SettingTest:InvalidMyAccount</h2>
+<div style="padding-left:3em">
+<p>Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:601)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327)
+<br/>at com.sun.proxy.$Proxy11.getTagName(Unknown Source)
+<br/>at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55)
+<br/>at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:601)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78)
+<br/>at com.sun.proxy.$Proxy6.afterClickOn(Unknown Source)
+<br/>at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341)
+<br/>at main.pages.HomePage.loginClick(HomePage.java:84)
+<br/>at main.pages.HomePage.homeAndLogin(HomePage.java:147)
+<br/>at test.java.SettingTest.InvalidMyAccount(SettingTest.java:104)
+<br/>34 lines not shown
+<p>Caused by Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7234)
+<br/>at &lt;anonymous class&gt;.Utils.getElementAt(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6839)
+<br/>at &lt;anonymous class&gt;.WebElement.getElementTagName(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9745)
+<br/>at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10272)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:382)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">test.java.SettingTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">test.java.SettingTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">test.java.SettingTest:setup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">test.java.SettingTest:aMainSettUrlInvalid</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">test.java.SettingTest:MainSettInvalid</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">test.java.SettingTest:MainSetting</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">test.java.LogTest:invalidLoginNoPass</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">test.java.LogTest:validLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">test.java.LogTest:invalidLoginNoEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">test.java.LogTest:invalidLoginWrongEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">test.java.LogTest:invalidLoginWrongPass</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 5, Errors: 0, Skipped: 6, Time elapsed: 74.363 sec <<< FAILURE!
+InvalidMyAccount(test.java.SettingTest)  Time elapsed: 14.2 sec  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7234)
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6839)
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9745)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10272)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:382)
+
+unLogin(test.java.SettingTest)  Time elapsed: 24.267 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"head-user"}
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+
+unLogin(test.java.SettingTest)  Time elapsed: 10.025 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"head-user"}
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+
+unLogin(test.java.SettingTest)  Time elapsed: 10.04 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"head-user"}
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+
+unLogin(test.java.SettingTest)  Time elapsed: 10.042 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"head-user"}
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+

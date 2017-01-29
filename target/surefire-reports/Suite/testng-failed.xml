@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="test.java(failed)">
+    <classes>
+      <class name="test.java.LogTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.java.LogTest -->
+      <class name="test.java.SettingTest">
+        <methods>
+          <include name="InvalidMyAccount"/>
+          <include name="MainSetting"/>
+          <include name="setup"/>
+          <include name="unLogin"/>
+          <include name="MainSettInvalid"/>
+          <include name="aMainSettUrlInvalid"/>
+        </methods>
+      </class> <!-- test.java.SettingTest -->
+    </classes>
+  </test> <!-- test.java(failed) -->
+</suite> <!-- Failed suite [Suite] -->

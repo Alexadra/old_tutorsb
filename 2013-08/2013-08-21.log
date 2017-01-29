@@ -1,0 +1,470 @@
+407  [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.RegisterTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+1367 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@4bbc6b34, browserName=firefox, proxy=org.openqa.selenium.Proxy@3f2249c4}]:null
+7250 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+15974 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li |id:  |text: ('Русский▼')
+20189 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:li |id:  |text: ('Русский▼')
+20208 [main] INFO  test.java.LogTest - ------------------------ true
+20256 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+20413 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+20420 [main] INFO  test.java.LogTest - ------------------------ true
+20446 [main] INFO  test.java.LogTest - _______________________________Test = registerWithGM_______________________________
+20524 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signup |text: ('Регистрация')
+22607 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signup |text: ('Регистрация')
+22616 [main] INFO  test.java.LogTest - ------------------------ true
+22765 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Регистрация с Google')
+24210 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Регистрация с Google')
+24866 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+24870 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.WebDriverException: window.jQuery is undefined
+Command duration or timeout: 620 milliseconds
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Session ID: 34921c21-8b92-4e47-9061-54973908ed19
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_25]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_25]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.executeScript(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:209) ~[selenium-server-standalone-2.33.0.jar:na]
+	at test.java.BaseClass$1.apply(BaseClass.java:91) [classes/:na]
+	at test.java.BaseClass$1.apply(BaseClass.java:1) [classes/:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208) [selenium-server-standalone-2.33.0.jar:na]
+	at test.java.BaseClass.waitForPageLoaded(BaseClass.java:97) [classes/:na]
+	at main.pages.HomePage.switchToNewWindow(HomePage.java:301) [classes/:na]
+	at test.java.RegisterTest.registerWithGM(RegisterTest.java:197) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: window.jQuery is undefined
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.anonymous(https://accounts.google.com/ServiceLogin?service=lso&passive=1209600&continue=https://accounts.google.com/o/oauth2/auth?immediate%3Dfalse%26response_type%3Dtoken%26scope%3Dhttps://www.googleapis.com/auth/userinfo.profile%2Bhttps://www.googleapis.com/auth/userinfo.email%2Bhttps://www.google.com/m8/feeds/%26redirect_uri%3Dpostmessage%26proxy%3Doauth2relay855225984%26state%3D617123777%257C0.2514117935%26origin%3Dhttps://plush.com.ua%26client_id%3D543188434999.apps.googleusercontent.com%26authuser%3D0%26hl%3Dru%26from_login%3D1%26as%3D73fe6abce700190&ltmpl=popup&shdf=CsQCCxIRdGhpcmRQYXJ0eUxvZ29VcmwawQEvL2ltYWdlcy1sc28tb3BlbnNvY2lhbC5nb29nbGV1c2VyY29udGVudC5jb20vZ2FkZ2V0cy9wcm94eT91cmw9aHR0cHM6Ly90dXRvcnNiYW5kLmNvbS9zdGF0aWMvaW1nL3NhZmVfaW1hZ2UucG5nJmNvbnRhaW5lcj1sc28mZ2FkZ2V0PWEmcmV3cml0ZU1pbWU9aW1hZ2UvKiZyZXNpemVfaD0xMjAmcmVzaXplX3c9MTIwJm5vX2V4cGFuZD0xDAsSFXRoaXJkUGFydHlEaXNwbGF5TmFtZRoRVHV0b3JzYmFuZCBUZXN0dW4MCxIGZG9tYWluGhFUdXRvcnNiYW5kIFRlc3R1bgwLEhV0aGlyZFBhcnR5RGlzcGxheVR5cGUaB0RFRkFVTFQMEgNsc28iFMCAzZchGXQRzXtpJxHAzUFps9uTKAEyFHYDZQPzdTSK8kjCksWmkETli-jV&hl=ru&sarp=1&scc=1:60) ~[na:na]
+	at <anonymous class>.handleEvaluateEvent(https://accounts.google.com/ServiceLogin?service=lso&passive=1209600&continue=https://accounts.google.com/o/oauth2/auth?immediate%3Dfalse%26response_type%3Dtoken%26scope%3Dhttps://www.googleapis.com/auth/userinfo.profile%2Bhttps://www.googleapis.com/auth/userinfo.email%2Bhttps://www.google.com/m8/feeds/%26redirect_uri%3Dpostmessage%26proxy%3Doauth2relay855225984%26state%3D617123777%257C0.2514117935%26origin%3Dhttps://plush.com.ua%26client_id%3D543188434999.apps.googleusercontent.com%26authuser%3D0%26hl%3Dru%26from_login%3D1%26as%3D73fe6abce700190&ltmpl=popup&shdf=CsQCCxIRdGhpcmRQYXJ0eUxvZ29VcmwawQEvL2ltYWdlcy1sc28tb3BlbnNvY2lhbC5nb29nbGV1c2VyY29udGVudC5jb20vZ2FkZ2V0cy9wcm94eT91cmw9aHR0cHM6Ly90dXRvcnNiYW5kLmNvbS9zdGF0aWMvaW1nL3NhZmVfaW1hZ2UucG5nJmNvbnRhaW5lcj1sc28mZ2FkZ2V0PWEmcmV3cml0ZU1pbWU9aW1hZ2UvKiZyZXNpemVfaD0xMjAmcmVzaXplX3c9MTIwJm5vX2V4cGFuZD0xDAsSFXRoaXJkUGFydHlEaXNwbGF5TmFtZRoRVHV0b3JzYmFuZCBUZXN0dW4MCxIGZG9tYWluGhFUdXRvcnNiYW5kIFRlc3R1bgwLEhV0aGlyZFBhcnR5RGlzcGxheVR5cGUaB0RFRkFVTFQMEgNsc28iFMCAzZchGXQRzXtpJxHAzUFps9uTKAEyFHYDZQPzdTSK8kjCksWmkETli-jV&hl=ru&sarp=1&scc=1:60) ~[na:na]
+24871 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+24889 [main] INFO  test.java.LogTest - window.JSErrorCollector_errors is undefined
+Command duration or timeout: 18 milliseconds
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Session ID: 34921c21-8b92-4e47-9061-54973908ed19
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+25030 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+25455 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+25502 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+26213 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+26310 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: signIn |text: ('')
+28721 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: signIn |text: ('')
+28878 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: google_invite_submit |text: ('')
+38972 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+38973 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 10.09 seconds
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Session ID: 34921c21-8b92-4e47-9061-54973908ed19
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_25]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_25]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy9.click(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:340) ~[selenium-server-standalone-2.33.0.jar:na]
+	at main.pages.RegisterPage.confrimInviteGM(RegisterPage.java:74) ~[classes/:na]
+	at test.java.RegisterTest.registerWithGM(RegisterTest.java:200) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///tmp/anonymous2671601984221541354webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:7736) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///tmp/anonymous2671601984221541354webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10437) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous2671601984221541354webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10456) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous2671601984221541354webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:386) ~[na:na]
+38973 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+47719 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+47721 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:396) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:407) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:180) ~[selenium-server-standalone-2.33.0.jar:na]
+	at main.pages.MyPage.profileMenu(MyPage.java:180) [classes/:na]
+	at main.pages.MyPage.openSettings(MyPage.java:186) [classes/:na]
+	at test.java.RegisterTest.registerWithGM(RegisterTest.java:214) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7055 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:334) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.33.0.jar:na]
+	... 38 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.7.0_25]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_25]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_25]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_25]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.7.0_25]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_25]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:127) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[selenium-server-standalone-2.33.0.jar:na]
+	... 48 common frames omitted
+47722 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+47728 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+50729 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+50732 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.executeScript(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:209) ~[selenium-server-standalone-2.33.0.jar:na]
+	at net.jsourcerer.webdriver.jserrorcollector.JavaScriptError.readErrors(JavaScriptError.java:135) ~[JSErrorCollector-0.5.jar:na]
+	at main.pages.HomePage.jsErrorExist(HomePage.java:320) [classes/:na]
+	at test.java.RegisterTest.unLogin(RegisterTest.java:54) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://127.0.0.1:7055 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:151) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:125) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:316) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.33.0.jar:na]
+	... 37 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.7.0_25]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_25]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_25]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_25]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.7.0_25]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_25]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:127) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[selenium-server-standalone-2.33.0.jar:na]
+	... 47 common frames omitted
+50732 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+50834 [Thread-2] DEBUG main.Driver.WebDriverFactory - Killing driver 
+50844 [Thread-2] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+50845 [Thread-2] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+java.lang.NullPointerException: null
+	at org.openqa.selenium.io.FileHandler.delete(FileHandler.java:132) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.io.FileHandler.delete(FileHandler.java:133) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.io.FileHandler.delete(FileHandler.java:133) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.io.TemporaryFilesystem.deleteTempDir(TemporaryFilesystem.java:115) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxProfile.clean(FirefoxProfile.java:409) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.quit(NewProfileExtensionConnection.java:169) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.quit(FirefoxDriver.java:339) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver.stopClient(FirefoxDriver.java:285) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:426) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.33.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:99) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:163) [classes/:na]
+50845 [Thread-2] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+50845 [Thread-2] WARN  main.Driver.WebDriverFactory - Driver killing error
+org.openqa.selenium.remote.SessionNotFoundException: Session ID is null
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:273) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463) ~[selenium-server-standalone-2.33.0.jar:na]
+	at main.Driver.MyWebDriverEventListener.onException(MyWebDriverEventListener.java:66) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy7.onException(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.33.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:99) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:163) ~[classes/:na]
+287  [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.RegisterTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+341  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@4bbc6b34, browserName=firefox, proxy=org.openqa.selenium.Proxy@3f2249c4}]:null
+2153 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+10287 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li |id:  |text: ('Русский▼')
+14494 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:li |id:  |text: ('Русский▼')
+14502 [main] INFO  test.java.LogTest - ------------------------ true
+14656 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+14809 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+14813 [main] INFO  test.java.LogTest - ------------------------ true
+14840 [main] INFO  test.java.LogTest - _______________________________Test = registerWithGM_______________________________
+14897 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signup |text: ('Регистрация')
+17069 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signup |text: ('Регистрация')
+17082 [main] INFO  test.java.LogTest - ------------------------ true
+17177 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Регистрация с Google')
+18618 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Регистрация с Google')
+18988 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+18993 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.WebDriverException: window.jQuery is undefined
+Command duration or timeout: 351 milliseconds
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Session ID: bc0fe765-b865-4be5-969c-e2e94b8a447e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_25]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) ~[na:1.7.0_25]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.executeScript(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:209) ~[selenium-server-standalone-2.33.0.jar:na]
+	at test.java.BaseClass$1.apply(BaseClass.java:91) [classes/:na]
+	at test.java.BaseClass$1.apply(BaseClass.java:1) [classes/:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208) [selenium-server-standalone-2.33.0.jar:na]
+	at test.java.BaseClass.waitForPageLoaded(BaseClass.java:97) [classes/:na]
+	at main.pages.HomePage.switchToNewWindow(HomePage.java:301) [classes/:na]
+	at test.java.RegisterTest.registerWithGM(RegisterTest.java:197) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: window.jQuery is undefined
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.anonymous(https://accounts.google.com/ServiceLogin?service=lso&passive=1209600&continue=https://accounts.google.com/o/oauth2/auth?immediate%3Dfalse%26response_type%3Dtoken%26scope%3Dhttps://www.googleapis.com/auth/userinfo.profile%2Bhttps://www.googleapis.com/auth/userinfo.email%2Bhttps://www.google.com/m8/feeds/%26redirect_uri%3Dpostmessage%26proxy%3Doauth2relay855438792%26state%3D632534656%257C0.587200698%26origin%3Dhttps://plush.com.ua%26client_id%3D543188434999.apps.googleusercontent.com%26authuser%3D0%26hl%3Dru%26from_login%3D1%26as%3Dc5b29cad325f983&ltmpl=popup&shdf=CsQCCxIRdGhpcmRQYXJ0eUxvZ29VcmwawQEvL2ltYWdlcy1sc28tb3BlbnNvY2lhbC5nb29nbGV1c2VyY29udGVudC5jb20vZ2FkZ2V0cy9wcm94eT91cmw9aHR0cHM6Ly90dXRvcnNiYW5kLmNvbS9zdGF0aWMvaW1nL3NhZmVfaW1hZ2UucG5nJmNvbnRhaW5lcj1sc28mZ2FkZ2V0PWEmcmV3cml0ZU1pbWU9aW1hZ2UvKiZyZXNpemVfaD0xMjAmcmVzaXplX3c9MTIwJm5vX2V4cGFuZD0xDAsSFXRoaXJkUGFydHlEaXNwbGF5TmFtZRoRVHV0b3JzYmFuZCBUZXN0dW4MCxIGZG9tYWluGhFUdXRvcnNiYW5kIFRlc3R1bgwLEhV0aGlyZFBhcnR5RGlzcGxheVR5cGUaB0RFRkFVTFQMEgNsc28iFM1xUC-e3JN28myHgNj0pv54bBeXKAEyFJ5xcoMLWja90ZkupUuGSCUSBeTJ&hl=ru&sarp=1&scc=1:60) ~[na:na]
+	at <anonymous class>.handleEvaluateEvent(https://accounts.google.com/ServiceLogin?service=lso&passive=1209600&continue=https://accounts.google.com/o/oauth2/auth?immediate%3Dfalse%26response_type%3Dtoken%26scope%3Dhttps://www.googleapis.com/auth/userinfo.profile%2Bhttps://www.googleapis.com/auth/userinfo.email%2Bhttps://www.google.com/m8/feeds/%26redirect_uri%3Dpostmessage%26proxy%3Doauth2relay855438792%26state%3D632534656%257C0.587200698%26origin%3Dhttps://plush.com.ua%26client_id%3D543188434999.apps.googleusercontent.com%26authuser%3D0%26hl%3Dru%26from_login%3D1%26as%3Dc5b29cad325f983&ltmpl=popup&shdf=CsQCCxIRdGhpcmRQYXJ0eUxvZ29VcmwawQEvL2ltYWdlcy1sc28tb3BlbnNvY2lhbC5nb29nbGV1c2VyY29udGVudC5jb20vZ2FkZ2V0cy9wcm94eT91cmw9aHR0cHM6Ly90dXRvcnNiYW5kLmNvbS9zdGF0aWMvaW1nL3NhZmVfaW1hZ2UucG5nJmNvbnRhaW5lcj1sc28mZ2FkZ2V0PWEmcmV3cml0ZU1pbWU9aW1hZ2UvKiZyZXNpemVfaD0xMjAmcmVzaXplX3c9MTIwJm5vX2V4cGFuZD0xDAsSFXRoaXJkUGFydHlEaXNwbGF5TmFtZRoRVHV0b3JzYmFuZCBUZXN0dW4MCxIGZG9tYWluGhFUdXRvcnNiYW5kIFRlc3R1bgwLEhV0aGlyZFBhcnR5RGlzcGxheVR5cGUaB0RFRkFVTFQMEgNsc28iFM1xUC-e3JN28myHgNj0pv54bBeXKAEyFJ5xcoMLWja90ZkupUuGSCUSBeTJ&hl=ru&sarp=1&scc=1:60) ~[na:na]
+18993 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+19000 [main] INFO  test.java.LogTest - window.JSErrorCollector_errors is undefined
+Command duration or timeout: 6 milliseconds
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Session ID: bc0fe765-b865-4be5-969c-e2e94b8a447e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=21.0}]
+19068 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+19489 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input |id: Passwd |text: ('')
+19528 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+20230 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input |id: Email |text: ('')
+20309 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: signIn |text: ('')
+22702 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: signIn |text: ('')
+22885 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: google_invite_submit |text: ('')
+26049 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: google_invite_submit |text: ('')
+26062 [main] INFO  test.java.LogTest - ------------------------ true
+26086 [main] INFO  test.java.LogTest - ------------------------ true
+26235 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+27109 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+27531 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('It')
+28879 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('It')
+28930 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Лидерство')
+29622 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Лидерство')
+29702 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Промышленность')
+30407 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Промышленность')
+30473 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: register_tags_button |text: ('')
+31680 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: register_tags_button |text: ('')
+45335 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+46092 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+46108 [main] INFO  test.java.LogTest - ------------------------ false
+46848 [main] INFO  test.java.LogTest - ------------------------ true
+46942 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+47792 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+47802 [main] INFO  test.java.LogTest - ------------------------ true
+47948 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+48587 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+48785 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+49260 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+49346 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+51567 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+52508 [main] ERROR test.java.LogTest - ------------------------> Ошибка на странице:"Рекомендации".Текст переменной: Records_title ***not defined*** 
+57494 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Настройки')
+58046 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Настройки')
+58059 [main] INFO  test.java.LogTest - ------------------------ false
+58580 [main] INFO  test.java.LogTest - ------------------------ true
+58679 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Мой аккаунт')
+61074 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Мой аккаунт')
+61079 [main] INFO  test.java.LogTest - ------------------------ false
+61592 [main] INFO  test.java.LogTest - ------------------------ true
+61686 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input |id: main_config_email |text: ('')
+62040 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input |id: main_config_email |text: ('')
+62124 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id:  |text: ('')
+62849 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id:  |text: ('')
+62903 [main] INFO  test.java.LogTest - ------------------------ false
+63446 [main] INFO  test.java.LogTest - ------------------------ true
+65434 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+66194 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+66223 [main] INFO  test.java.LogTest - ------------------------ false
+66901 [main] INFO  test.java.LogTest - ------------------------ true
+66919 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+70018 [Thread-2] DEBUG main.Driver.WebDriverFactory - Killing driver 

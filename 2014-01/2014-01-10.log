@@ -1,0 +1,33 @@
+348  [main] INFO  test.java.LogTest - ______________________________________class test.java.WebinarTest______________________________________
+357  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null. Driver uses count = 1
+6245 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://tutorsband.com/login'
+11488 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+11563 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+11674 [main] INFO  test.java.LogTest - ------------------------ true
+11777 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: lang_ru |text: ('Русский')
+11858 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: lang_ru |text: ('Русский')
+12785 [main] INFO  test.java.LogTest - ------------------------ true
+12807 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = startDemo()<<<<<<<<<<<<<<<
+12880 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+13011 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+13672 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+13816 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+13870 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+13936 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+14916 [main] INFO  test.java.LogTest - ------------------------ false
+15116 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Демо-видеовстреча')
+15250 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Демо-видеовстреча')
+22602 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: upload-document-second from 'tag:input |id: upload-document-second |text: ('')
+24122 [main] INFO  test.java.LogTest - ------------------------ true
+24210 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: header__exit_btn |text: ('Завершить')
+24300 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: header__exit_btn |text: ('Завершить')
+24396 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: yes-exit |text: ('Да')
+26691 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: yes-exit |text: ('Да')
+26700 [main] INFO  test.java.LogTest - ------------------------ true
+26711 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+29825 [main] INFO  test.java.LogTest - ------------------------ true
+30020 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+30078 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+30830 [main] INFO  test.java.LogTest - ------------------------ true
+31518 [main] INFO  test.java.LogTest - ------------------------ true
+31594 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 

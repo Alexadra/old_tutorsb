@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="test.java(failed)">
+    <classes>
+      <class name="test.java.SettingTest">
+        <methods>
+          <include name="invalidMyAccount"/>
+          <include name="setup"/>
+          <include name="unLogin"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- test.java.SettingTest -->
+      <class name="test.java.RegisterTest">
+        <methods>
+          <include name="unLogin"/>
+          <include name="registerWithFB"/>
+          <include name="setupMethod"/>
+          <include name="setup"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- test.java.RegisterTest -->
+      <class name="test.java.LogTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="loginFBHangoutPopup"/>
+          <include name="googleValidLoginPopup"/>
+          <include name="loginFBHeaderHangCreate"/>
+          <include name="invalidLoginNoPass"/>
+          <include name="setup"/>
+          <include name="loginGMHeaderHangCreate"/>
+          <include name="loginGMHangoutPopup"/>
+          <include name="ifacebookValidLoginPopup"/>
+          <include name="unLogin"/>
+          <include name="invalidLoginWrongEmail"/>
+        </methods>
+      </class> <!-- test.java.LogTest -->
+      <class name="test.java.CommentTest">
+        <methods>
+          <include name="setup"/>
+          <include name="closeDriver"/>
+          <include name="unLogin"/>
+        </methods>
+      </class> <!-- test.java.CommentTest -->
+      <class name="test.java.WebinarTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="setup"/>
+          <include name="unLogin"/>
+        </methods>
+      </class> <!-- test.java.WebinarTest -->
+      <class name="test.java.ChatTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="setup"/>
+          <include name="unLogin"/>
+        </methods>
+      </class> <!-- test.java.ChatTest -->
+    </classes>
+  </test> <!-- test.java(failed) -->
+</suite> <!-- Failed suite [Suite] -->

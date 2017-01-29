@@ -1,0 +1,93 @@
+﻿ paymentsSubmitPaymentSystem: function(amount_votes) {
+if (isVisible('payments_box_progress')) return;
+var ps_name = cur.votesType;
+var ps = cur.psList[ps_name];
+var error = false;
+if (!ps.simple_redirect) {
+if (!amount_votes) return;
+var amount_rub = (amount_votes * ps.vote_cost).toFixed(2);
+var amount_usd = (amount_votes * ps.vote_cost / 29.592).toFixed(2);
+var amount_rub_int = Math.floor(amount_rub);
+var amount_rub_frac = (amount_rub - amount_rub_int) * 100;
+if (!amount_votes || amount_votes <= 0) {
+error = 'Необходимо указать сумму платежа.';
+} else if (ps.min_amount && amount_votes < ps.min_amount) {
+error = 'Минимальное количество голосов для оплаты через выбранную платежную систему - %s.'.replace('%s', ps.min_amount);
+} else if (ps.max_amount && amount_votes > ps.max_amount) {
+error = 'Максимальное количество голосов для оплаты через выбранную платежную систему - %s.'.replace('%s', ps.max_amount);
+} else if (ps.rest_amount_day != undefined && amount_votes > ps.rest_amount_day) {
+error = 'Превышена сумма лимита за день. Возможное количество голосов для оплаты через выбранную платежную систему - %s.'.replace('%s', ps.rest_amount_day);
+} else if (ps.rest_amount_week != undefined && amount_votes > ps.rest_amount_week) {
+error = 'Превышена сумма лимита за неделю. Возможное количество голосов для оплаты через выбранную платежную систему - %s.'.replace('%s', ps.rest_amount_week);
+}
+} else {
+var amount_votes, amount_rub, amount_usd;
+amount_votes = amount_rub = amount_usd = 0;
+}
+if (error != false) {
+cur.paymentsShowBoxError(error);
+return false;
+}
+cur.paymentsShowProgress();
+var params = ps.gate_params;
+var html = '';
+var form = ge('paymentSystemsForm');
+var time = new Date().getTime();
+for (var key in params) {
+var value = params[key];
+value = value.replace('{amount_votes}', amount_votes);
+value = value.replace('{amount_rub}', amount_rub);
+value = value.replace('{amount_usd}', amount_usd);
+value = value.replace('{amount_rub_int}', amount_rub_int);
+value = value.replace('{amount_rub_frac}', amount_rub_frac);
+value = value.replace('{time}', time);
+html += '<input type="hidden" autocomplete="off" name="' + key + '" value="' + value + '"/>';
+}
+var action = ps.gate_url;
+action = action.replace('{time}', time);
+action = action.replace('{amount_votes}', amount_votes);
+action = action.replace('{amount_rub}', amount_rub);
+action = action.replace('{amount_usd}', amount_usd);
+action = action.replace('{amount_rub_int}', amount_rub_int);
+action = action.replace('{amount_rub_frac}', amount_rub_frac);
+form.action = action;
+form.method = ps.gate_method;
+form.innerHTML = html;
+// Submit form in a new window
+var popupName = '_blank';
+var left = 0;
+var top = 0;
+var popupParams = 'scrollbars=1, resizable=1, menubar=1, left=' + left + ', top=' + top + ', toolbar=1, status=1';
+var popup = false;
+try {
+var lang_redirect = 'Перенаправление на платежную систему <b>%s</b>.<br>Пожалуйста, подождите...';
+lang_redirect = lang_redirect.replace('%s', ps.title);
+var form_html = '<form action="' + form.action + '" method="'+ form.method +'" id="popup_payment_form" accept-charset="'+ ps.gate_charset +'">'+ form.innerHTML +'</form>';
+cur._popup_text = cur.paymentsPopupHtml(lang_redirect, form_html, 'Payments.submitPopupForm("'+ps_name+'", "'+amount_votes+'", "'+amount_rub+'", "'+amount_usd+'")');
+var popupUrl = '';
+if (browser.msie) {
+popupUrl = '/payments?act=go_gate&type='+ps_name;
+}
+popup = window.open(popupUrl, popupName, popupParams);
+cur.smsChkData = false;
+cur.isPaymentComplete = false;
+cur.smsChkStatCnt = 0;
+cur.smsChkStatInt = setInterval(function() {
+cur.paymentsCheckStatus();
+if (popup.closed && !cur.isPaymentComplete) {
+clearInterval(cur.smsChkStatInt);
+cur.paymentsShowBoxError('Процесс оплаты был отменен.');
+if (!ps.simple_redirect) {
+cur.paymentsSetConfirmButtons();
+} else {
+cur.paymentsSetButtons(false, false, 'Выбрать другой способ оплаты', cur.paymentsShowTypes);
+}
+}
+}, 2000);
+if (!popupUrl) {
+cur.paymentsPopupWrite(popup);
+}
+} catch(e) {
+form.submit();
+}
+}, 

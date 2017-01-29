@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="5" time="128.891" errors="0" skipped="6" tests="16" name="TestSuite">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Tutorsband"/>
+    <property name="PWD" value="/var/lib/jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="LC_TIME" value="ru_UA.UTF-8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/usr/lib/jvm/java-7-oracle/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"/>
+    <property name="HUDSON_SERVER_COOKIE" value="5ffd6677aba20c26"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.7.0_17-b02"/>
+    <property name="LC_NAME" value="ru_UA.UTF-8"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="XDG_SESSION_COOKIE" value="73c5115ebee156f07eaf051f00000006-1364545135.827499-1951636182"/>
+    <property name="LC_IDENTIFICATION" value="ru_UA.UTF-8"/>
+    <property name="NODE_PATH" value="/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript"/>
+    <property name="LC_ADDRESS" value="ru_UA.UTF-8"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
+    <property name="DISPLAY" value=":0"/>
+    <property name="java.version" value="1.7.0_17"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm"/>
+    <property name="NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="2013-03-29_16-00-45"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="LC_MONETARY" value="ru_UA.UTF-8"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="3.2.0-23-generic"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="LC_MEASUREMENT" value="ru_UA.UTF-8"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/daemon"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="JAVA_HOME" value="/usr/lib/jvm/java-7-oracle"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="jenkins"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-Tutorsband-9"/>
+    <property name="JENKINS_SERVER_COOKIE" value="5ffd6677aba20c26"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.jvnet.hudson.maven3.agent.Maven3Main /usr/share/maven /var/cache/jenkins/war/WEB-INF/lib/remoting-2.22.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.2.jar 54484"/>
+    <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-agent-1.2.jar:/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/usr/lib/jvm/java-7-oracle/bin"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/usr/share/maven"/>
+    <property name="MAIL" value="/var/mail/jenkins"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/share/maven/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Tutorsband/9/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="LC_NUMERIC" value="ru_UA.UTF-8"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/home/alexandra/Testing/eclipse_workspace/Tutorsband"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Tutorsband/"/>
+    <property name="LC_PAPER" value="ru_UA.UTF-8"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/usr/share/maven"/>
+    <property name="XAUTHORITY" value="/home/alexandra/.Xauthority"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="9"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="COLORTERM" value="mate-terminal"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-1.2.jar"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/workspace/Tutorsband"/>
+    <property name="LC_TELEPHONE" value="ru_UA.UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="USER" value="jenkins"/>
+    <property name="XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt"/>
+  </properties>
+  <testcase time="14.2" classname="test.java.SettingTest" name="InvalidMyAccount">
+    <failure message="Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7234)
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6839)
+	at &lt;anonymous class&gt;.WebElement.getElementTagName(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9745)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10272)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:382)
+</failure>
+    <system-out>16:00:52,940 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+16:00:52,940 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+16:00:52,940 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/alexandra/Testing/eclipse_workspace/Tutorsband/target/classes/logback.xml]
+16:00:53,038 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+16:00:53,041 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+16:00:53,046 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+16:00:53,058 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:00:53,085 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+16:00:53,086 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+16:00:53,108 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+16:00:53,109 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern %d{yyyy-MM,aux}/%d.log for the active file
+16:00:53,112 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is &apos;yyyy-MM-dd&apos; from file name pattern &apos;%d{yyyy-MM,aux}/%d.log&apos;.
+16:00:53,112 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+16:00:53,114 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Fri Mar 29 16:00:53 EET 2013
+16:00:53,115 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+16:00:53,115 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: 2013-03/2013-03-29.log
+16:00:53,115 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [null]
+16:00:53,116 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - openFile(null,true) call failed. java.io.FileNotFoundException: 2013-03/2013-03-29.log (Permission denied)
+	at java.io.FileNotFoundException: 2013-03/2013-03-29.log (Permission denied)
+	at 	at java.io.FileOutputStream.open(Native Method)
+	at 	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:212)
+	at 	at ch.qos.logback.core.recovery.ResilientFileOutputStream.&lt;init&gt;(ResilientFileOutputStream.java:28)
+	at 	at ch.qos.logback.core.FileAppender.openFile(FileAppender.java:149)
+	at 	at ch.qos.logback.core.FileAppender.start(FileAppender.java:108)
+	at 	at ch.qos.logback.core.rolling.RollingFileAppender.start(RollingFileAppender.java:72)
+	at 	at ch.qos.logback.core.joran.action.AppenderAction.end(AppenderAction.java:96)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:318)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:197)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:183)
+	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:157)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:143)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:106)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:56)
+	at 	at ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:75)
+	at 	at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:148)
+	at 	at org.slf4j.impl.StaticLoggerBinder.init(StaticLoggerBinder.java:85)
+	at 	at org.slf4j.impl.StaticLoggerBinder.&lt;clinit&gt;(StaticLoggerBinder.java:55)
+	at 	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:128)
+	at 	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:107)
+	at 	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:295)
+	at 	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:269)
+	at 	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:281)
+	at 	at test.java.LogTest.&lt;clinit&gt;(LogTest.java:28)
+	at 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at 	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at 	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:29)
+	at 	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:387)
+	at 	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:299)
+	at 	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:110)
+	at 	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:186)
+	at 	at org.testng.internal.TestNGClassFinder.&lt;init&gt;(TestNGClassFinder.java:120)
+	at 	at org.testng.TestRunner.initMethods(TestRunner.java:409)
+	at 	at org.testng.TestRunner.init(TestRunner.java:235)
+	at 	at org.testng.TestRunner.init(TestRunner.java:205)
+	at 	at org.testng.TestRunner.&lt;init&gt;(TestRunner.java:153)
+	at 	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:522)
+	at 	at org.testng.SuiteRunner.init(SuiteRunner.java:157)
+	at 	at org.testng.SuiteRunner.&lt;init&gt;(SuiteRunner.java:111)
+	at 	at org.testng.TestNG.createSuiteRunner(TestNG.java:1273)
+	at 	at org.testng.TestNG.createSuiteRunners(TestNG.java:1260)
+	at 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1114)
+	at 	at org.testng.TestNG.run(TestNG.java:1031)
+	at 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at 	at java.lang.reflect.Method.invoke(Method.java:601)
+	at 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158)
+	at 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86)
+	at 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+16:00:53,116 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+16:00:53,116 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+16:00:53,117 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+16:00:53,117 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+16:00:53,118 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@6cc986d2 - Registering current configuration as safe fallback point
+
+266  [main] INFO  test.java.LogTest - &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;class test.java.SettingTest&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+274  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null 
+Test = InvalidMyAccount
+3651 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:&apos;https://plush.com.ua/&apos; 
+6241 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  (&apos;English▼&apos;) 
+6350 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  (&apos;English&apos;) 
+6407 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: lang_ru (&apos;Русский&apos;) 
+6476 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: lang_ru (&apos;&apos;) 
+7280 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  (&apos;Войти&apos;) 
+17830 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: 
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-remote-driver-2.31.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-support-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy11.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-support-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy6.afterClickOn(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341) [selenium-support-2.31.0.jar:na]
+	at main.pages.HomePage.loginClick(HomePage.java:84) [classes/:na]
+	at main.pages.HomePage.homeAndLogin(HomePage.java:147) [classes/:na]
+	at test.java.SettingTest.InvalidMyAccount(SettingTest.java:104) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng-6.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198) [testng-6.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123) [testng-6.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-6.8.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178) [surefire-testng-2.13.jar:2.13]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92) [surefire-testng-2.13.jar:2.13]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96) [surefire-testng-2.13.jar:2.13]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208) [surefire-api-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158) [surefire-booter-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86) [surefire-booter-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153) [surefire-booter-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95) [surefire-booter-2.13.jar:2.13]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7234) ~[na:na]
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6839) ~[na:na]
+	at &lt;anonymous class&gt;.WebElement.getElementTagName(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9745) ~[na:na]
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10272) ~[na:na]
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:382) ~[na:na]
+</system-out>
+  </testcase>
+  <testcase time="24.267" classname="test.java.SettingTest" name="unLogin">
+    <failure message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+</failure>
+    <system-out>@AfterMethod
+27903 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: head-user 
+</system-out>
+  </testcase>
+  <testcase time="24.268" classname="test.java.SettingTest" name="setup">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="test.java.SettingTest" name="MainSettInvalid">
+    <skipped/>
+  </testcase>
+  <testcase time="10.025" classname="test.java.SettingTest" name="unLogin">
+    <failure message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+</failure>
+    <system-out>@AfterMethod
+37930 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: head-user 
+</system-out>
+  </testcase>
+  <testcase time="10.025" classname="test.java.SettingTest" name="setup">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="test.java.SettingTest" name="MainSetting">
+    <skipped/>
+  </testcase>
+  <testcase time="10.04" classname="test.java.SettingTest" name="unLogin">
+    <failure message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+</failure>
+    <system-out>@AfterMethod
+47969 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: head-user 
+</system-out>
+  </testcase>
+  <testcase time="10.041" classname="test.java.SettingTest" name="setup">
+    <skipped/>
+  </testcase>
+  <testcase time="0" classname="test.java.SettingTest" name="aMainSettUrlInvalid">
+    <skipped/>
+  </testcase>
+  <testcase time="10.042" classname="test.java.SettingTest" name="unLogin">
+    <failure message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;head-user&quot;}
+Command duration or timeout: 10.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.31.0&apos;, revision: &apos;1bd294d185a80fa4206dfeab80ba773c04ac33c0&apos;, time: &apos;2013-02-27 13:51:26&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.2.0-23-generic&apos;, java.version: &apos;1.7.0_17&apos;
+Session ID: f768c70f-806f-4b10-9e21-cb4678bf48e9
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8281)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///tmp/anonymous5098678135609257016webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:382)
+</failure>
+    <system-out>@AfterMethod
+58013 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: head-user 
+</system-out>
+  </testcase>
+  <testcase time="2.496" classname="test.java.LogTest" name="invalidLoginNoEmail"/>
+  <testcase time="2.254" classname="test.java.LogTest" name="invalidLoginNoPass"/>
+  <testcase time="3.604" classname="test.java.LogTest" name="invalidLoginWrongEmail"/>
+  <testcase time="2.644" classname="test.java.LogTest" name="invalidLoginWrongPass"/>
+  <testcase time="4.985" classname="test.java.LogTest" name="validLogin"/>
+</testsuite>

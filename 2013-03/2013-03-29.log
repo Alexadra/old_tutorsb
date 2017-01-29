@@ -1,0 +1,1048 @@
+110226 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@55cf055c, browserName=firefox, proxy=org.openqa.selenium.Proxy@a690707}]:null
+121198 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+125829 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+125957 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+125998 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+126076 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+131383 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+141841 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: f031cdab-0799-4a05-80e4-c1e3deb070ae
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-remote-driver-2.31.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-support-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy12.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-support-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy7.afterClickOn(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341) [selenium-support-2.31.0.jar:na]
+	at main.pages.HomePage.loginClick(HomePage.java:84) [classes/:na]
+	at test.java.PasswordRecoverTest.invalidNoRecover(PasswordRecoverTest.java:93) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng-6.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198) [testng-6.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123) [testng-6.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-6.8.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178) [surefire-testng-2.13.jar:2.13]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92) [surefire-testng-2.13.jar:2.13]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96) [surefire-testng-2.13.jar:2.13]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208) [surefire-api-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158) [surefire-booter-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86) [surefire-booter-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153) [surefire-booter-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95) [surefire-booter-2.13.jar:2.13]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7234) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous2256218861975560275webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6839) ~[na:na]
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous2256218861975560275webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9745) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous2256218861975560275webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10272) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous2256218861975560275webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:382) ~[na:na]
+141849 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+142808 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+142907 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+142952 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+143060 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+143126 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+143206 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+143850 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: login_error_recover ('Забыли пароль?')
+143916 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: login_error_recover ('Забыли пароль?')
+144836 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: recover_email from 'tag:input id: recover_email ('')' to 'tag:input id: recover_email ('')'
+144962 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: recover_email from 'tag:input id: recover_email ('')' to 'tag:input id: recover_email ('')'
+144984 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+147238 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+147805 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+148692 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+148765 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+148828 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+148918 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+148979 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+149074 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+149494 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: login_error_recover ('Забыли пароль?')
+149593 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: login_error_recover ('Забыли пароль?')
+149890 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: recover_email from 'tag:input id: recover_email ('')' to 'tag:input id: recover_email ('')'
+149999 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: recover_email from 'tag:input id: recover_email ('')' to 'tag:input id: recover_email ('')'
+150037 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+150205 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+150794 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<
+150794 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+150801 [main] DEBUG main.Driver.WebDriverFactory - Replacing driver Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@55cf055c, browserName=firefox, proxy=org.openqa.selenium.Proxy@a690707}]:null with a new one Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+150807 [main] DEBUG main.Driver.WebDriverFactory - Killing driver 
+154647 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+157771 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('English▼')
+157866 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('English')
+157914 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: lang_ru ('Русский')
+157981 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: lang_ru ('')
+158892 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+158973 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+159663 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+159784 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+160648 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+160790 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+160809 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+160884 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+163298 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+163379 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+163437 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: tb-sp-u-settings ('')
+163543 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: tb-sp-u-settings ('')
+164052 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Мой аккаунт')
+164174 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Мой аккаунт')
+164482 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+164563 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+164937 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+165107 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+166261 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+166382 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+166500 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+166620 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+167849 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+167959 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+168070 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+168181 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+169301 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+169405 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+169474 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+169587 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+170232 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+170410 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+170468 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+170579 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+170581 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<
+170581 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+171173 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = MainSettInvalid<<<<<<<<<<<<<<<
+171175 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+172721 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+172791 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+172831 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+172947 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+173013 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+173105 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+173549 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+173661 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+173771 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+173863 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+173882 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+173957 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+174964 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+175062 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+175118 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: tb-sp-u-settings ('')
+175214 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: tb-sp-u-settings ('')
+175551 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+175658 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+175698 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+175790 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+176404 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+176497 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+176567 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+176744 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+176745 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<
+176745 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+176759 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = MainSetting<<<<<<<<<<<<<<<
+176760 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+177687 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+177754 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+177784 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+177903 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+177967 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+178078 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+178555 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+178679 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+178817 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+178961 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+179006 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+179116 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+180139 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+180229 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+180280 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: tb-sp-u-settings ('')
+180366 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: tb-sp-u-settings ('')
+180618 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+180897 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+180961 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+181092 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+181182 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_city_name from 'tag:input id: teacher_config_city_name ('')' to 'tag:input id: teacher_config_city_name ('')'
+181308 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_city_name from 'tag:input id: teacher_config_city_name ('')' to 'tag:input id: teacher_config_city_name ('')'
+181436 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:div id:  ('Киев, Украина')
+181516 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:div id:  ('')
+181610 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_min_price from 'tag:input id: teacher_config_min_price ('')' to 'tag:input id: teacher_config_min_price ('')'
+181682 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_min_price from 'tag:input id: teacher_config_min_price ('')' to 'tag:input id: teacher_config_min_price ('')'
+181713 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:div id:  ('Грн')
+181917 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:div id:  ('Грн')
+181960 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Грн')
+182061 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('')
+182173 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_interests from 'tag:input id: teacher_config_interests ('')' to 'tag:input id: teacher_config_interests ('')'
+182268 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_interests from 'tag:input id: teacher_config_interests ('')' to 'tag:input id: teacher_config_interests ('')'
+182327 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_workplace from 'tag:input id: teacher_config_workplace ('')' to 'tag:input id: teacher_config_workplace ('')'
+182414 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_workplace from 'tag:input id: teacher_config_workplace ('')' to 'tag:input id: teacher_config_workplace ('')'
+182526 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+182602 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+182792 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_info from 'tag:textarea id: teacher_config_info ('Я бизнессмен')' to 'tag:textarea id: teacher_config_info ('Я бизнессмен')'
+182905 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_info from 'tag:textarea id: teacher_config_info ('Я бизнессмен')' to 'tag:textarea id: teacher_config_info ('Я бизнессмен')'
+182951 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+183165 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+184285 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+184393 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+184443 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+184519 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+184520 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<
+184520 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+184533 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = aMainSettUrlInvalid<<<<<<<<<<<<<<<
+184534 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+185398 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+185465 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+185508 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+185611 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+185675 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+185770 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+186520 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+186596 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+186713 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+186790 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+186808 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+186884 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+187862 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+187961 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+188046 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: tb-sp-u-settings ('')
+188116 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: tb-sp-u-settings ('')
+188375 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+188610 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+188705 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+188788 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+188835 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+189080 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+192802 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+192872 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+193039 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+193150 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+193190 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+193420 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+196432 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+196502 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+196579 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+196685 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+196712 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+196918 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+197496 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+197567 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+197604 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+197702 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+198324 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@4b9cc11, browserName=firefox, proxy=org.openqa.selenium.Proxy@42047283}]:null
+199652 [main] DEBUG main.Driver.WebDriverFactory - Replacing driver Capabilities [{platform=ANY, browserName=firefox, version=}]:null with a new one Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@4b9cc11, browserName=firefox, proxy=org.openqa.selenium.Proxy@42047283}]:null
+199670 [main] DEBUG main.Driver.WebDriverFactory - Killing driver 
+209287 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+211630 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+211775 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+211839 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+211960 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+212044 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+212102 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+212123 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_button ('')
+212192 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_button ('')
+212563 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Вход →')
+212657 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Вход →')
+213225 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Регистрация →')
+213315 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Регистрация →')
+213830 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+214735 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+214818 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+214934 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+215048 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+215205 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+215329 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+215345 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_button ('')
+215428 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_button ('')
+218733 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+218826 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+218923 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+219004 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+219074 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+221148 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+221183 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_error_button ('')
+221252 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_error_button ('')
+224330 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+224450 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+224546 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+224652 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+224763 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+224865 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+224903 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_error_button ('')
+224994 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_error_button ('')
+225554 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+226844 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+226993 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+227112 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+227188 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+227244 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+227312 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+227333 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_button ('')
+227415 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_button ('')
+227800 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+228682 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+228802 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+228894 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+229006 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+229158 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+229237 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+229257 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_button ('')
+229324 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_button ('')
+231962 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+232069 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+232134 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+232248 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+232320 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+232429 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+232447 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_error_button ('')
+232537 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_error_button ('')
+233085 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+234172 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+234250 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+234351 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+234467 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+234589 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+234678 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+234697 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_button ('')
+234766 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_button ('')
+236059 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+236144 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+236190 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+236288 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+236290 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+236291 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+236296 [main] DEBUG main.Driver.WebDriverFactory - Replacing driver Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@4b9cc11, browserName=firefox, proxy=org.openqa.selenium.Proxy@42047283}]:null with a new one Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+236302 [main] DEBUG main.Driver.WebDriverFactory - Killing driver 
+239451 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginNoEmail<<<<<<<<<<<<<<<
+239453 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+242737 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('English▼')
+242851 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('English')
+242890 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: lang_ru ('Русский')
+242952 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: lang_ru ('')
+244018 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+254533 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.24 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: 11d94b87-fe05-424e-b961-40028beb454a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-remote-driver-2.31.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-support-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy12.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-support-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy7.afterClickOn(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341) [selenium-support-2.31.0.jar:na]
+	at main.pages.HomePage.loginClick(HomePage.java:84) [classes/:na]
+	at test.java.LogTest.invalidLoginNoEmail(LogTest.java:63) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng-6.8.jar:na]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng-6.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng-6.8.jar:na]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng-6.8.jar:na]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127) [testng-6.8.jar:na]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng-6.8.jar:na]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng-6.8.jar:na]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng-6.8.jar:na]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng-6.8.jar:na]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-6.8.jar:na]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng-6.8.jar:na]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198) [testng-6.8.jar:na]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123) [testng-6.8.jar:na]
+	at org.testng.TestNG.run(TestNG.java:1031) [testng-6.8.jar:na]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178) [surefire-testng-2.13.jar:2.13]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92) [surefire-testng-2.13.jar:2.13]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96) [surefire-testng-2.13.jar:2.13]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208) [surefire-api-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:158) [surefire-booter-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:86) [surefire-booter-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153) [surefire-booter-2.13.jar:2.13]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95) [surefire-booter-2.13.jar:2.13]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7234) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous3670465281852017642webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6839) ~[na:na]
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous3670465281852017642webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9745) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous3670465281852017642webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10272) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous3670465281852017642webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:382) ~[na:na]
+254536 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+254536 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+254568 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginNoPass<<<<<<<<<<<<<<<
+254570 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+255389 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+255486 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+255526 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+255606 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+255641 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+255708 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+256179 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+256260 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+256886 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+257100 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+257122 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+257214 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+258075 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+258075 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+258103 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginWrongEmail<<<<<<<<<<<<<<<
+258105 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+258833 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+258896 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+258925 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+259039 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+259092 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+259178 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+259594 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+259651 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+259746 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+259847 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+259889 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+259984 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+260534 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+260534 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+260552 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginWrongPass<<<<<<<<<<<<<<<
+260553 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+261341 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+261408 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+261438 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+261566 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+261626 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+261721 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+262222 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+262318 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+262404 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+262476 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+262494 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+262585 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+263137 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+263137 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+263184 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = validLogin()<<<<<<<<<<<<<<<
+263186 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+263961 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+264042 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+264079 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+264188 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+264237 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+264322 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+264946 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+265044 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+265130 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+265242 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+265279 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+265438 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+267936 [Thread-2] DEBUG main.Driver.WebDriverFactory - Killing driver 
+270010 [Thread-2] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423) ~[selenium-remote-driver-2.31.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-support-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-support-2.31.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:99) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:157) ~[classes/:na]
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254) ~[httpcore-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289) ~[httpcore-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300) ~[httpcore-4.2.1.jar:4.2.1]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127) ~[httpcore-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:334) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-firefox-driver-2.31.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355) ~[selenium-firefox-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-2.31.0.jar:na]
+	... 11 common frames omitted
+270011 [Thread-2] WARN  main.Driver.WebDriverFactory - Driver killing error
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.31.0', revision: '1bd294d185a80fa4206dfeab80ba773c04ac33c0', time: '2013-02-27 13:51:26'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423) ~[selenium-remote-driver-2.31.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-support-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-support-2.31.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:99) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:157) [classes/:na]
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254) ~[httpcore-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289) ~[httpcore-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300) ~[httpcore-4.2.1.jar:4.2.1]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127) ~[httpcore-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[httpclient-4.2.1.jar:4.2.1]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:334) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295) ~[selenium-remote-driver-2.31.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-firefox-driver-2.31.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355) ~[selenium-firefox-driver-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-remote-driver-2.31.0.jar:na]
+	... 11 common frames omitted
+1445 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<
+4904 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+1458 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@bec04ab, browserName=firefox, proxy=org.openqa.selenium.Proxy@34267caa}]:null
+13033 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+15138 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+15230 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+15295 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+15393 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+15440 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+15522 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+16044 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: login_error_recover ('Забыли пароль?')
+16142 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: login_error_recover ('Забыли пароль?')
+16535 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: recover_email from 'tag:input id: recover_email ('')' to 'tag:input id: recover_email ('')'
+16626 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: recover_email from 'tag:input id: recover_email ('')' to 'tag:input id: recover_email ('')'
+16660 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+16751 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+17306 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+18170 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+18268 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+18313 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+18406 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+18460 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+18537 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+19079 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: login_error_recover ('Забыли пароль?')
+19174 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: login_error_recover ('Забыли пароль?')
+19463 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: recover_email from 'tag:input id: recover_email ('')' to 'tag:input id: recover_email ('')'
+19550 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: recover_email from 'tag:input id: recover_email ('')' to 'tag:input id: recover_email ('')'
+19601 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+20007 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+20054 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+21844 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+21949 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+21981 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+22062 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+22107 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+22192 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+24319 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: login_error_recover ('Забыли пароль?')
+24896 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: login_error_recover ('Забыли пароль?')
+27695 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: recover_email from 'tag:input id: recover_email ('')' to 'tag:input id: recover_email ('')'
+27872 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: recover_email from 'tag:input id: recover_email ('')' to 'tag:input id: recover_email ('')'
+27915 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+28174 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+28765 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<
+28765 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+28772 [main] DEBUG main.Driver.WebDriverFactory - Replacing driver Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@bec04ab, browserName=firefox, proxy=org.openqa.selenium.Proxy@34267caa}]:null with a new one Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+28778 [main] DEBUG main.Driver.WebDriverFactory - Killing driver 
+32444 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+35666 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('English▼')
+35764 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('English')
+35800 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: lang_ru ('Русский')
+35863 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: lang_ru ('')
+36718 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+36839 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+37446 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+37545 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+38183 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+38406 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+38446 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+38620 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+40547 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+40645 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+40712 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: tb-sp-u-settings ('')
+40807 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: tb-sp-u-settings ('')
+41470 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Мой аккаунт')
+51882 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.31.0', revision: '1bd294d', time: '2013-02-27 20:52:59'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: f7938220-3926-4d6a-aa9c-b2ef9c395368
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187) ~[selenium-server-standalone-2.31.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:123) ~[selenium-server-standalone-2.31.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy13.getAttribute(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:57) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy8.afterClickOn(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341) [selenium-server-standalone-2.31.0.jar:na]
+	at main.pages.SettingsPage.accountSett(SettingsPage.java:136) [classes/:na]
+	at test.java.SettingTest.InvalidMyAccount(SettingTest.java:106) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.31.0', revision: '1bd294d', time: '2013-02-27 20:52:59'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7234) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous3160714989444280987webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6839) ~[na:na]
+	at <anonymous class>.WebElement.getElementAttribute(file:///tmp/anonymous3160714989444280987webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9750) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous3160714989444280987webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10272) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous3160714989444280987webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:382) ~[na:na]
+51938 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+52028 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+52070 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+52169 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+52171 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<
+52172 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+52822 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = MainSettInvalid<<<<<<<<<<<<<<<
+52824 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+53548 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+53619 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+53660 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+53740 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+53776 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+53866 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+54305 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+54408 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+54529 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+54646 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+54687 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+54920 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+55755 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+55842 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+55883 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: tb-sp-u-settings ('')
+55974 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: tb-sp-u-settings ('')
+56303 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+56424 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+56468 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+56558 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+57136 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+57215 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+57263 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+57360 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+57361 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<
+57362 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+57955 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = MainSetting<<<<<<<<<<<<<<<
+57957 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+58746 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+58828 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+58860 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+58990 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+59053 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+59153 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+59585 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+59675 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+59777 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+59904 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+59949 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+60048 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+61065 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+61160 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+61232 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: tb-sp-u-settings ('')
+61329 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: tb-sp-u-settings ('')
+61701 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+61809 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+61865 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+61950 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+62060 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_city_name from 'tag:input id: teacher_config_city_name ('')' to 'tag:input id: teacher_config_city_name ('')'
+62173 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_city_name from 'tag:input id: teacher_config_city_name ('')' to 'tag:input id: teacher_config_city_name ('')'
+62304 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:div id:  ('Киев, Украина')
+62444 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:div id:  ('')
+62541 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_min_price from 'tag:input id: teacher_config_min_price ('')' to 'tag:input id: teacher_config_min_price ('')'
+62650 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_min_price from 'tag:input id: teacher_config_min_price ('')' to 'tag:input id: teacher_config_min_price ('')'
+62800 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:div id:  ('Грн')
+63025 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:div id:  ('Грн')
+63091 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Грн')
+63202 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('')
+63299 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_interests from 'tag:input id: teacher_config_interests ('')' to 'tag:input id: teacher_config_interests ('')'
+63372 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_interests from 'tag:input id: teacher_config_interests ('')' to 'tag:input id: teacher_config_interests ('')'
+63436 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_workplace from 'tag:input id: teacher_config_workplace ('')' to 'tag:input id: teacher_config_workplace ('')'
+63505 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_workplace from 'tag:input id: teacher_config_workplace ('')' to 'tag:input id: teacher_config_workplace ('')'
+63566 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+63643 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+63725 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_info from 'tag:textarea id: teacher_config_info ('Я бизнессмен')' to 'tag:textarea id: teacher_config_info ('Я бизнессмен')'
+63837 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_info from 'tag:textarea id: teacher_config_info ('Я бизнессмен')' to 'tag:textarea id: teacher_config_info ('Я бизнессмен')'
+63874 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+63950 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+65213 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+65300 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+65373 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+65478 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+65479 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<
+65480 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+66255 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = aMainSettUrlInvalid<<<<<<<<<<<<<<<
+66256 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+67095 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+67266 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+67341 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+67435 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+67501 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+67573 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+68022 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+68093 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+68165 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+68255 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+68273 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+68367 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+69490 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+69589 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+69655 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: tb-sp-u-settings ('')
+69733 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: tb-sp-u-settings ('')
+70035 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+70132 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+70235 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+70353 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+70400 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+70669 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+72735 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+72845 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+72945 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+73026 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+73071 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+73251 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+75373 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+75499 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+75642 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+75853 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+75891 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+76116 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+76797 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+76894 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+76960 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+77053 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+77617 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@685b4d0e, browserName=firefox, proxy=org.openqa.selenium.Proxy@422007a8}]:null
+77635 [main] DEBUG main.Driver.WebDriverFactory - Replacing driver Capabilities [{platform=ANY, browserName=firefox, version=}]:null with a new one Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@685b4d0e, browserName=firefox, proxy=org.openqa.selenium.Proxy@422007a8}]:null
+77647 [main] DEBUG main.Driver.WebDriverFactory - Killing driver 
+87892 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+90268 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+90405 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+90495 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+90560 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+90632 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+90690 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+90713 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_button ('')
+90779 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_button ('')
+91166 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Вход →')
+91312 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Вход →')
+91868 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Регистрация →')
+91954 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Регистрация →')
+92471 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+93327 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+93412 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+93508 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+93629 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+93813 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+93898 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+93919 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_button ('')
+94000 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_button ('')
+96063 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+96197 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+96253 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+96330 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+96384 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+96461 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+96478 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_error_button ('')
+96553 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_error_button ('')
+102819 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+102947 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+103037 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+103132 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+103203 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+103297 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+103324 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_error_button ('')
+103438 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_error_button ('')
+104007 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+105173 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+105225 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+105299 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+105396 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+105453 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+105518 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+105537 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_button ('')
+105647 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_button ('')
+105958 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+106794 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+106874 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+106938 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+107010 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+107083 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+107178 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+107215 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_button ('')
+107297 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_button ('')
+109355 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+109475 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_name from 'tag:input id: register_error_name ('')' to 'tag:input id: register_error_name ('')'
+109552 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+109634 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_email from 'tag:input id: register_error_email ('')' to 'tag:input id: register_error_email ('')'
+109691 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+109775 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_error_password from 'tag:input id: register_error_password ('')' to 'tag:input id: register_error_password ('')'
+109808 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_error_button ('')
+109904 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_error_button ('')
+110454 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+111529 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+111604 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_name from 'tag:input id: register_name ('')' to 'tag:input id: register_name ('')'
+111707 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+111826 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_email from 'tag:input id: register_email ('')' to 'tag:input id: register_email ('')'
+111909 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+112072 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: register_password from 'tag:input id: register_password ('')' to 'tag:input id: register_password ('')'
+112110 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: register_button ('')
+112183 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: register_button ('')
+122268 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: div.user-info p.name
+132309 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: div.user-info p.name
+132311 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+132311 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+132318 [main] DEBUG main.Driver.WebDriverFactory - Replacing driver Capabilities [{firefox_profile=org.openqa.selenium.firefox.FirefoxProfile@685b4d0e, browserName=firefox, proxy=org.openqa.selenium.Proxy@422007a8}]:null with a new one Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+132325 [main] DEBUG main.Driver.WebDriverFactory - Killing driver 
+135114 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginNoEmail<<<<<<<<<<<<<<<
+135116 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+138006 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('English▼')
+138086 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('English')
+138127 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: lang_ru ('Русский')
+138184 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: lang_ru ('')
+138925 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+149486 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.31 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.31.0', revision: '1bd294d', time: '2013-02-27 20:52:59'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: 0210455c-ddf4-4afc-ac72-cabf3dd40eb3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187) ~[selenium-server-standalone-2.31.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.31.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-server-standalone-2.31.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy13.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.31.0.jar:na]
+	at com.sun.proxy.$Proxy8.afterClickOn(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341) [selenium-server-standalone-2.31.0.jar:na]
+	at main.pages.HomePage.loginClick(HomePage.java:84) [classes/:na]
+	at test.java.LogTest.invalidLoginNoEmail(LogTest.java:63) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.31.0', revision: '1bd294d', time: '2013-02-27 20:52:59'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7234) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous4741592894633535013webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6839) ~[na:na]
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous4741592894633535013webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9745) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous4741592894633535013webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10272) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous4741592894633535013webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:382) ~[na:na]
+149492 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+149492 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+149518 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginNoPass<<<<<<<<<<<<<<<
+149520 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+150363 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+150437 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+150479 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+150587 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+150627 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+150709 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+151179 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+151246 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+151294 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+151380 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+151399 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+151476 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+152128 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+152128 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+152143 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginWrongEmail<<<<<<<<<<<<<<<
+152144 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+152883 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+153020 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+153084 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+153172 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+153216 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+153299 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+153755 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+153832 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+153901 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+153979 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+154009 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+154100 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+154641 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+154641 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+154661 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginWrongPass<<<<<<<<<<<<<<<
+154663 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+155412 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+155481 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+155517 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+155636 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+155692 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+155777 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+156233 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+156296 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+156368 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+156440 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+156475 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+156558 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+157195 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+157195 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+157213 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = validLogin()<<<<<<<<<<<<<<<
+157214 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+157992 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+158067 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+158101 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+158189 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+158223 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Войти')
+158320 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Войти')
+158794 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+158914 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:input id: login_error_email ('')' to 'tag:input id: login_error_email ('')'
+159004 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+159101 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:input id: login_error_password ('')' to 'tag:input id: login_error_password ('')'
+159119 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_error_button ('')
+159205 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_error_button ('')
+161809 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:i id: head-user ('')
+161907 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:i id: head-user ('')
+161965 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+162050 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+162137 [Thread-2] DEBUG main.Driver.WebDriverFactory - Killing driver 

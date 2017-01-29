@@ -1,0 +1,73 @@
+[0.000][INFO]:      ChromeDriver 26.0.1383.0 /home/alexandra/Testing/libraries/chromedriver
+[0.071][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [ "--proxy-server=http://org.openqa.selenium.Proxy@31ade61" ],
+   "chromeOptions": {
+      "args": [ "--proxy-server=http://org.openqa.selenium.Proxy@31ade61" ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.071][INFO]:      Launching chrome: /opt/google/chrome/google-chrome --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --password-store=basic --ignore-certificate-errors --proxy-server=http://org.openqa.selenium.Proxy@31ade61 about:blank
+[0.569][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.43
+[0.686][FINE]:      Command received (/session/ff9c0a17c347c43b4259c049b466c6f6)
+[0.686][FINE]:      Command finished (/session/ff9c0a17c347c43b4259c049b466c6f6) with response {
+   "sessionId": "ff9c0a17c347c43b4259c049b466c6f6",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "linux",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "26.0.1410.43",
+      "webStorageEnabled": true
+   }
+}
+
+[0.721][FINE]:      Command received (/session/ff9c0a17c347c43b4259c049b466c6f6/url) with params {
+   "url": "https://plush.com.ua/"
+}
+
+[0.721][FINER]:     Waiting for all views to stop loading...
+[0.721][FINER]:     Done waiting for all views to stop loading
+[1.371][FINER]:     Waiting for all views to stop loading...
+[1.372][FINER]:     Done waiting for all views to stop loading
+[1.372][FINE]:      Command finished (/session/ff9c0a17c347c43b4259c049b466c6f6/url) with response {
+   "sessionId": "ff9c0a17c347c43b4259c049b466c6f6",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[6.376][FINE]:      Command received (/session/ff9c0a17c347c43b4259c049b466c6f6/element) with params {
+   "using": "css selector",
+   "value": ".select-lang .selected"
+}
+
+[6.376][FINER]:     Waiting for all views to stop loading...
+[6.377][FINER]:     Done waiting for all views to stop loading
+[6.404][FINER]:     Waiting for all views to stop loading...
+[6.405][FINER]:     Done waiting for all views to stop loading
+[6.405][WARNING]:   Command finished (/session/ff9c0a17c347c43b4259c049b466c6f6/element) with response {
+   "sessionId": "ff9c0a17c347c43b4259c049b466c6f6",
+   "status": 7,
+   "value": {
+      "message": "The element could not be found"
+   }
+}
+
+[6.473][FINE]:      Command received (/session/ff9c0a17c347c43b4259c049b466c6f6)
+[6.863][INFO]:      Chrome shutdown

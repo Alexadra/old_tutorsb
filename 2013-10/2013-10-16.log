@@ -1,0 +1,635 @@
+454  [main] INFO  test.java.LogTest - ______________________________________class test.java.HangoutTest______________________________________
+480  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null
+5676 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+6556 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+12033 [main] INFO  test.java.LogTest - ------------------------ true
+12272 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('English')
+15980 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('English')
+15991 [main] INFO  test.java.LogTest - ------------------------ true
+16101 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: lang_ru |text: ('Русский')
+16374 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: lang_ru |text: ('Русский')
+17059 [main] INFO  test.java.LogTest - ------------------------ true
+17079 [main] INFO  test.java.LogTest - _______________________Test = editHangoutNoChange_______________________
+17181 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+18545 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+18550 [main] INFO  test.java.LogTest - ------------------------ true
+18652 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+19296 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+19982 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+20603 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+20658 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+22737 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+23696 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('')
+24962 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('')
+24974 [main] INFO  test.java.LogTest - ------------------------ false
+25192 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('')
+25340 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('')
+25349 [main] INFO  test.java.LogTest - ------------------------ true
+25445 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Создать видеовстречу')
+27290 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Создать видеовстречу')
+27703 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+28335 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+28474 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+28867 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+28962 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+29263 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+29458 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+30171 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+30312 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_image from 'tag:input |id: hangout_image |text: ('')
+31073 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: preview_create |text: ('Сохранить')
+33055 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: preview_create |text: ('Сохранить')
+33382 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+34018 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+34136 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+34968 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+35025 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: create_hangout |text: ('')
+35815 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: create_hangout |text: ('')
+36349 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Редактировать')
+37604 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Редактировать')
+38119 [main] INFO  test.java.LogTest - ------------------------ false
+38636 [main] INFO  test.java.LogTest - ------------------------ false
+39152 [main] INFO  test.java.LogTest - ------------------------ false
+39672 [main] INFO  test.java.LogTest - ------------------------ false
+40196 [main] INFO  test.java.LogTest - ------------------------ false
+40719 [main] INFO  test.java.LogTest - ------------------------ false
+41242 [main] INFO  test.java.LogTest - ------------------------ false
+41764 [main] INFO  test.java.LogTest - ------------------------ false
+42286 [main] INFO  test.java.LogTest - ------------------------ false
+42800 [main] INFO  test.java.LogTest - ------------------------ false
+43332 [main] INFO  test.java.LogTest - ------------------------ false
+43350 [main] INFO  test.java.LogTest - Timed out after 5 seconds waiting for main.pages.BaseClass$1@59b2947f
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+43435 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+43739 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+43837 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('Free hangout description')
+44129 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('Free hangout description')
+44211 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: image_remove |text: ('Удалить')
+44754 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: image_remove |text: ('Удалить')
+45001 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+45366 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+45455 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: create_hangout |text: ('')
+46485 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: create_hangout |text: ('')
+46497 [main] INFO  test.java.LogTest - ------------------------ false
+47024 [main] INFO  test.java.LogTest - ------------------------ false
+47543 [main] INFO  test.java.LogTest - ------------------------ false
+48067 [main] INFO  test.java.LogTest - ------------------------ false
+48592 [main] INFO  test.java.LogTest - ------------------------ false
+49120 [main] INFO  test.java.LogTest - ------------------------ false
+49652 [main] INFO  test.java.LogTest - ------------------------ false
+50171 [main] INFO  test.java.LogTest - ------------------------ false
+50694 [main] INFO  test.java.LogTest - ------------------------ false
+51222 [main] INFO  test.java.LogTest - ------------------------ false
+51751 [main] INFO  test.java.LogTest - ------------------------ false
+51766 [main] INFO  test.java.LogTest - Timed out after 5 seconds waiting for main.pages.BaseClass$1@13eeba25
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+51890 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+54908 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+54908 [main] ERROR test.java.LogTest - javascript error 1.TypeError: e.moment(...) is null [https://static.testun.com.ua/js/main.js?v=1893:8888]
+54908 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+57739 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+58477 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+58488 [main] INFO  test.java.LogTest - ------------------------ false
+59426 [main] INFO  test.java.LogTest - ------------------------ true
+59436 [main] INFO  test.java.LogTest - ______________________________________class test.java.HangoutTest______________________________________
+59437 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null
+59451 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+59470 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+60236 [main] INFO  test.java.LogTest - ------------------------ true
+60323 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+61763 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+61768 [main] INFO  test.java.LogTest - ------------------------ true
+62000 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+62173 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+62182 [main] INFO  test.java.LogTest - ------------------------ true
+62191 [main] INFO  test.java.LogTest - _______________________Test = editHangoutNoChange_______________________
+62263 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+64463 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+64473 [main] INFO  test.java.LogTest - ------------------------ true
+64614 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+65307 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+65385 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+66011 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+66069 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+68291 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+69578 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('1')
+70847 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('1')
+70852 [main] INFO  test.java.LogTest - ------------------------ false
+71367 [main] INFO  test.java.LogTest - ------------------------ true
+71422 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('')
+71571 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('')
+71580 [main] INFO  test.java.LogTest - ------------------------ true
+71699 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Создать видеовстречу')
+73496 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Создать видеовстречу')
+74037 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+74693 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+74797 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+75198 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+75305 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+75631 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+75710 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+76465 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+76567 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_image from 'tag:input |id: hangout_image |text: ('')
+77504 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: preview_create |text: ('Сохранить')
+79741 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: preview_create |text: ('Сохранить')
+79973 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+80378 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+80466 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+81301 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+81569 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: create_hangout |text: ('')
+82538 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: create_hangout |text: ('')
+83076 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Редактировать')
+83793 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Редактировать')
+84321 [main] INFO  test.java.LogTest - ------------------------ false
+84845 [main] INFO  test.java.LogTest - ------------------------ false
+85366 [main] INFO  test.java.LogTest - ------------------------ false
+85892 [main] INFO  test.java.LogTest - ------------------------ false
+86409 [main] INFO  test.java.LogTest - ------------------------ false
+86925 [main] INFO  test.java.LogTest - ------------------------ false
+87441 [main] INFO  test.java.LogTest - ------------------------ false
+87968 [main] INFO  test.java.LogTest - ------------------------ false
+88492 [main] INFO  test.java.LogTest - ------------------------ false
+89014 [main] INFO  test.java.LogTest - ------------------------ false
+89529 [main] INFO  test.java.LogTest - ------------------------ false
+89540 [main] INFO  test.java.LogTest - Timed out after 5 seconds waiting for main.pages.BaseClass$1@1a8ffd20
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+89639 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: create_hangout |text: ('')
+90393 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: create_hangout |text: ('')
+90916 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+93932 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+93932 [main] ERROR test.java.LogTest - javascript error 1.TypeError: e.moment(...) is null [https://static.testun.com.ua/js/main.js?v=1893:8888]
+93932 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+96646 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+97389 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+97399 [main] INFO  test.java.LogTest - ------------------------ false
+98470 [main] INFO  test.java.LogTest - ------------------------ true
+98484 [main] INFO  test.java.LogTest - ______________________________________class test.java.HangoutTest______________________________________
+98484 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null
+98499 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+98518 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+99343 [main] INFO  test.java.LogTest - ------------------------ true
+99433 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+100870 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+100885 [main] INFO  test.java.LogTest - ------------------------ true
+101118 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+101296 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+101305 [main] INFO  test.java.LogTest - ------------------------ true
+101322 [main] INFO  test.java.LogTest - _______________________Test = freeHangoutCreation()_______________________
+101390 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+103626 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+103673 [main] INFO  test.java.LogTest - ------------------------ true
+103754 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+104398 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+104511 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+105159 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+105250 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+107483 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+108594 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('')
+109922 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('')
+109980 [main] INFO  test.java.LogTest - ------------------------ false
+110516 [main] INFO  test.java.LogTest - ------------------------ true
+110640 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('')
+110791 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('')
+110795 [main] INFO  test.java.LogTest - ------------------------ true
+110879 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Создать видеовстречу')
+112662 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Создать видеовстречу')
+113113 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+113711 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+113860 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+114252 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+114358 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+114662 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+114749 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+115500 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+115638 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_image from 'tag:input |id: hangout_image |text: ('')
+116405 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: preview_create |text: ('Сохранить')
+118648 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: preview_create |text: ('Сохранить')
+118889 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+119843 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+119938 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+120681 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+120768 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: create_hangout |text: ('')
+121529 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: create_hangout |text: ('')
+122093 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+124159 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+124170 [main] INFO  test.java.LogTest - ------------------------ false
+124687 [main] INFO  test.java.LogTest - ------------------------ false
+125202 [main] INFO  test.java.LogTest - ------------------------ false
+125722 [main] INFO  test.java.LogTest - ------------------------ false
+126237 [main] INFO  test.java.LogTest - ------------------------ false
+126758 [main] INFO  test.java.LogTest - ------------------------ false
+127283 [main] INFO  test.java.LogTest - ------------------------ false
+127806 [main] INFO  test.java.LogTest - ------------------------ false
+128327 [main] INFO  test.java.LogTest - ------------------------ false
+128842 [main] INFO  test.java.LogTest - ------------------------ false
+129366 [main] INFO  test.java.LogTest - ------------------------ false
+129379 [main] INFO  test.java.LogTest - Timed out after 5 seconds waiting for main.pages.BaseClass$1@7ef3c7bb
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+129699 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Сегодня в 18:49
+Бесплатная
+Free hangout a10064
+Ivanchuk Grigorii Test')
+131723 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Сегодня в 18:49
+Бесплатная
+Free hangout a10064
+Ivanchuk Grigorii Test')
+132155 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Удалить')
+133241 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Удалить')
+133499 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Удалить')
+134301 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Удалить')
+134317 [main] INFO  test.java.LogTest - ------------------------ false
+134840 [main] INFO  test.java.LogTest - ------------------------ false
+135363 [main] INFO  test.java.LogTest - ------------------------ false
+135885 [main] INFO  test.java.LogTest - ------------------------ false
+136410 [main] INFO  test.java.LogTest - ------------------------ false
+136942 [main] INFO  test.java.LogTest - ------------------------ false
+137467 [main] INFO  test.java.LogTest - ------------------------ false
+137992 [main] INFO  test.java.LogTest - ------------------------ false
+138516 [main] INFO  test.java.LogTest - ------------------------ false
+139041 [main] INFO  test.java.LogTest - ------------------------ false
+139568 [main] INFO  test.java.LogTest - ------------------------ false
+139580 [main] INFO  test.java.LogTest - Timed out after 5 seconds waiting for main.pages.BaseClass$1@3a53f324
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+139615 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+142623 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+142623 [main] ERROR test.java.LogTest - javascript error 1.TypeError: e.moment(...) is null [https://static.testun.com.ua/js/main.js?v=1893:8888]
+142623 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+144953 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+145700 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+145712 [main] INFO  test.java.LogTest - ------------------------ false
+146613 [main] INFO  test.java.LogTest - ------------------------ true
+146666 [main] INFO  test.java.LogTest - ______________________________________class test.java.HangoutTest______________________________________
+146666 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null
+146678 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+146690 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+147506 [main] INFO  test.java.LogTest - ------------------------ true
+147609 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+149061 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+149070 [main] INFO  test.java.LogTest - ------------------------ true
+149287 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+149468 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+149478 [main] INFO  test.java.LogTest - ------------------------ true
+149497 [main] INFO  test.java.LogTest - _______________________Test = invalidCreation_______________________
+149580 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+151812 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+151859 [main] INFO  test.java.LogTest - ------------------------ true
+151912 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+152565 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+152663 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+153316 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+153407 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+155618 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+156767 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('1')
+158074 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('1')
+158106 [main] INFO  test.java.LogTest - ------------------------ false
+158633 [main] INFO  test.java.LogTest - ------------------------ true
+158720 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('')
+158874 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('')
+158884 [main] INFO  test.java.LogTest - ------------------------ true
+158967 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Создать видеовстречу')
+160700 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Создать видеовстречу')
+161167 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+162863 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+162960 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+163257 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+163443 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+163587 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+163748 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+163804 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+164080 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+164396 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+164578 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+164744 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+164810 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+165087 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+165312 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+165441 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+165603 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+165691 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+165976 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+166262 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+166482 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+166642 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+166730 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+166998 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+167260 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+167425 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+167587 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+167665 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+167931 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+168168 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+168231 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+173315 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+174067 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+174077 [main] INFO  test.java.LogTest - ------------------------ false
+174906 [main] INFO  test.java.LogTest - ------------------------ true
+175098 [main] INFO  test.java.LogTest - ______________________________________class test.java.HangoutTest______________________________________
+175098 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null
+175115 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+175133 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+176009 [main] INFO  test.java.LogTest - ------------------------ true
+176112 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+177585 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+177610 [main] INFO  test.java.LogTest - ------------------------ true
+177800 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+177971 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+177982 [main] INFO  test.java.LogTest - ------------------------ true
+177999 [main] INFO  test.java.LogTest - _______________________Test = invalidCreation()_______________________
+178077 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+180302 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+180313 [main] INFO  test.java.LogTest - ------------------------ true
+180422 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+181121 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+181211 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+181868 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+181919 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+184151 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+185219 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('')
+186579 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('')
+186600 [main] INFO  test.java.LogTest - ------------------------ false
+187118 [main] INFO  test.java.LogTest - ------------------------ true
+187221 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('')
+187370 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('')
+187379 [main] INFO  test.java.LogTest - ------------------------ true
+187458 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Создать видеовстречу')
+189243 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Создать видеовстречу')
+189642 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+189709 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+189835 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+190264 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+190356 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+190687 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+190753 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+191472 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+191572 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_image from 'tag:input |id: hangout_image |text: ('')
+192263 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: preview_create |text: ('Сохранить')
+194502 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: preview_create |text: ('Сохранить')
+194837 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+195347 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+195458 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+196225 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+196344 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: create_hangout |text: ('')
+197076 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: create_hangout |text: ('')
+200185 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+200970 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+201084 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+201486 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+201692 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+202000 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+202109 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+202204 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+202321 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_image from 'tag:input |id: hangout_image |text: ('')
+203147 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: preview_create |text: ('Сохранить')
+203459 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: preview_create |text: ('Сохранить')
+203779 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+204403 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+204482 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+205233 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+205366 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: create_hangout |text: ('')
+206234 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: create_hangout |text: ('')
+209176 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+209982 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+210113 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+210543 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+211020 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+211089 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+211213 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+211956 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+212079 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_image from 'tag:input |id: hangout_image |text: ('')
+213424 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: preview_create |text: ('Сохранить')
+213732 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: preview_create |text: ('Сохранить')
+214003 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+214605 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+214776 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+215560 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+215761 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: create_hangout |text: ('')
+216514 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: create_hangout |text: ('')
+219438 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+220236 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+220368 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+220793 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+220900 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+221210 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+221311 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+222076 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+222201 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_image from 'tag:input |id: hangout_image |text: ('')
+223082 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: preview_create |text: ('Сохранить')
+223394 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: preview_create |text: ('Сохранить')
+223651 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+224393 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+224522 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+225308 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_free |text: ('Бесплатная доступна для всех пользователей.')
+225561 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: create_hangout |text: ('')
+226326 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: create_hangout |text: ('')
+229377 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_image from 'tag:input |id: hangout_image |text: ('')
+229968 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+232979 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+232980 [main] ERROR test.java.LogTest - javascript error 1.TypeError: e.moment(...) is null [https://static.testun.com.ua/js/main.js?v=1893:8888]
+232980 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+232980 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+232980 [main] ERROR test.java.LogTest - javascript error 2.TypeError: e.moment(...) is null [https://static.testun.com.ua/js/main.js?v=1893:8888]
+232980 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+232980 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+232980 [main] ERROR test.java.LogTest - javascript error 3.TypeError: e.moment(...) is null [https://static.testun.com.ua/js/main.js?v=1893:8888]
+232980 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+232980 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+232980 [main] ERROR test.java.LogTest - javascript error 4.TypeError: e.moment(...) is null [https://static.testun.com.ua/js/main.js?v=1893:8888]
+232980 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+235800 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+236527 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+236536 [main] INFO  test.java.LogTest - ------------------------ false
+237522 [main] INFO  test.java.LogTest - ------------------------ true
+237600 [main] INFO  test.java.LogTest - ______________________________________class test.java.HangoutTest______________________________________
+237600 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{browserName=firefox}]:null
+237614 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/sys/sys/test_cookie_key'
+237633 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://testun.com.ua/'
+238446 [main] INFO  test.java.LogTest - ------------------------ false
+238960 [main] INFO  test.java.LogTest - ------------------------ true
+239070 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+240512 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+240623 [main] INFO  test.java.LogTest - ------------------------ true
+240750 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Русский')
+240925 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Русский')
+240942 [main] INFO  test.java.LogTest - ------------------------ true
+240977 [main] INFO  test.java.LogTest - _______________________Test = freeHangoutCreation()_______________________
+241111 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: js_header_signin |text: ('Войти')
+243386 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: js_header_signin |text: ('Войти')
+243398 [main] INFO  test.java.LogTest - ------------------------ true
+243565 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+244216 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input |id: login_email |text: ('')
+244275 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+244908 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input |id: login_password |text: ('')
+245000 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: login_button |text: ('')
+247261 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: login_button |text: ('')
+248564 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('')
+249911 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('')
+249920 [main] INFO  test.java.LogTest - ------------------------ false
+250460 [main] INFO  test.java.LogTest - ------------------------ true
+250571 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: notify_show |text: ('')
+250723 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: notify_show |text: ('')
+250733 [main] INFO  test.java.LogTest - ------------------------ true
+250834 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Создать видеовстречу')
+252630 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Создать видеовстречу')
+253081 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+253721 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_title from 'tag:input |id: hangout_title |text: ('')
+253857 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+254247 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_date from 'tag:input |id: hangout_date |text: ('')
+254348 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+254674 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_time from 'tag:input |id: hangout_time |text: ('')
+254748 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+255493 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_text from 'tag:textarea |id: hangout_text |text: ('')
+255621 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_image from 'tag:input |id: hangout_image |text: ('')
+256331 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: preview_create |text: ('Сохранить')
+258550 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: preview_create |text: ('Сохранить')
+258796 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+259356 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea |id: tags-input |text: ('')
+259478 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+260287 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: hangout_money_closed |text: ('Платная вы определяете стоимость участия в видеовстрече.')
+260387 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+260612 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: hangout_tmoney from 'tag:input |id: hangout_tmoney |text: ('')
+260682 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input |id: create_hangout |text: ('')
+261399 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:input |id: create_hangout |text: ('')
+261947 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('')
+264020 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('')
+264031 [main] INFO  test.java.LogTest - ------------------------ false
+264551 [main] INFO  test.java.LogTest - ------------------------ false
+265066 [main] INFO  test.java.LogTest - ------------------------ false
+265586 [main] INFO  test.java.LogTest - ------------------------ false
+266107 [main] INFO  test.java.LogTest - ------------------------ false
+266627 [main] INFO  test.java.LogTest - ------------------------ false
+267142 [main] INFO  test.java.LogTest - ------------------------ false
+267658 [main] INFO  test.java.LogTest - ------------------------ false
+268207 [main] INFO  test.java.LogTest - ------------------------ false
+268733 [main] INFO  test.java.LogTest - ------------------------ false
+269254 [main] INFO  test.java.LogTest - ------------------------ false
+269259 [main] INFO  test.java.LogTest - Timed out after 5 seconds waiting for main.pages.BaseClass$1@136c2147
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+269542 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Сегодня в 18:52
+50 TBM
+Paid hangout a100118
+Ivanchuk Grigorii Test')
+271589 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Сегодня в 18:52
+50 TBM
+Paid hangout a100118
+Ivanchuk Grigorii Test')
+272001 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Удалить')
+273081 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Удалить')
+273719 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id:  |text: ('Удалить')
+274562 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id:  |text: ('Удалить')
+274573 [main] INFO  test.java.LogTest - ------------------------ false
+275093 [main] INFO  test.java.LogTest - ------------------------ false
+275614 [main] INFO  test.java.LogTest - ------------------------ false
+276137 [main] INFO  test.java.LogTest - ------------------------ false
+276654 [main] INFO  test.java.LogTest - ------------------------ false
+277173 [main] INFO  test.java.LogTest - ------------------------ false
+277698 [main] INFO  test.java.LogTest - ------------------------ false
+278219 [main] INFO  test.java.LogTest - ------------------------ false
+278735 [main] INFO  test.java.LogTest - ------------------------ false
+279254 [main] INFO  test.java.LogTest - ------------------------ false
+279776 [main] INFO  test.java.LogTest - ------------------------ false
+279789 [main] INFO  test.java.LogTest - Timed out after 5 seconds waiting for main.pages.BaseClass$1@50ed3bb2
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+279815 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+282828 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+282828 [main] ERROR test.java.LogTest - javascript error 1.TypeError: e.moment(...) is null [https://static.testun.com.ua/js/main.js?v=1893:8888]
+282828 [main] ERROR test.java.LogTest - ----------------------------------------------------------------------js error----------------------------------------------------------------------
+295347 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+298642 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a |id: logout |text: ('Выйти')
+299385 [main] DEBUG m.Driver.MyWebDriverEventListener - hope Webdriver clicked on element tag:a |id: logout |text: ('Выйти')
+299397 [main] INFO  test.java.LogTest - ------------------------ false
+300357 [main] INFO  test.java.LogTest - ------------------------ true
+300379 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+313570 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+313570 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .header__profile
+313570 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+313575 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+326679 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+326679 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .header__profile
+326679 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+326683 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+339793 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+339793 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .header__profile
+339793 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+339798 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+352915 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+352915 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .header__profile
+352915 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+352920 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+366029 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+366029 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .header__profile
+366029 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+366034 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+379143 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+379143 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: .header__profile
+379143 [main] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+379307 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+381384 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+381391 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423) ~[selenium-server-standalone-2.35.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:99) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:163) [classes/:na]
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:367) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.35.0.jar:na]
+	... 11 common frames omitted
+381391 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - ________________________________________________________________________________________________________________
+381392 [Thread-0] WARN  main.Driver.WebDriverFactory - Driver killing error
+org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.35.0', revision: 'c916b9d', time: '2013-08-12 15:42:01'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_25'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:364) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.35.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:463) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.MyWebDriverEventListener.onException(MyWebDriverEventListener.java:66) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_25]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_25]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_25]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_25]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy7.onException(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103) ~[selenium-server-standalone-2.35.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.35.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:99) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:163) ~[classes/:na]

@@ -1,0 +1,18 @@
+249  [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<
+256  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=opera, version=}]:null
+2871 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = validLogin()<<<<<<<<<<<<<<<
+2882 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+5849 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:LI id:  ('English▼')
+5899 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:LI id:  ('English')
+5960 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:A id: lang_ru ('Русский')
+6047 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:A id: lang_ru ('')
+6832 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:A id:  ('Войти')
+6896 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:A id:  ('Войти')
+7190 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:INPUT id: login_error_email ('')' to 'tag:INPUT id: login_error_email ('')'
+8277 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_email from 'tag:INPUT id: login_error_email ('')' to 'tag:INPUT id: login_error_email ('')'
+8417 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:INPUT id: login_error_password ('')' to 'tag:INPUT id: login_error_password ('')'
+8547 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_error_password from 'tag:INPUT id: login_error_password ('')' to 'tag:INPUT id: login_error_password ('')'
+8597 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:INPUT id: login_error_button ('')
+8669 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:INPUT id: login_error_button ('')
+18681 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.selector: div.user-info p.name
+18734 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 

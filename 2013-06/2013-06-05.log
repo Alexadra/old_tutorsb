@@ -1,0 +1,1335 @@
+392  [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+399  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+4354 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+9943 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('English▼')
+10036 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('English')
+10036 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+10042 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+10070 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: lang_ru ('Русский')
+10173 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: lang_ru ('')
+10173 [main] INFO  test.java.LogTest - Finished finding after waiting for 137 milliseconds.
+10182 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = facebookValidLogin()<<<<<<<<<<<<<<<
+10184 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+12690 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input id: email ('')' to 'tag:input id: email ('')'
+12846 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input id: email ('')' to 'tag:input id: email ('')'
+13540 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input id: pass ('')' to 'tag:input id: pass ('')'
+13721 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input id: pass ('')' to 'tag:input id: pass ('')'
+16877 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+18110 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+18120 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+18157 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Login')
+18273 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Login')
+18273 [main] INFO  test.java.LogTest - Finished finding after waiting for 163 milliseconds.
+18310 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Login with Facebook')
+18550 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Login with Facebook')
+20337 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+20351 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+20415 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Exit')
+20518 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Exit')
+20518 [main] INFO  test.java.LogTest - Finished finding after waiting for 181 milliseconds.
+21275 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+23235 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: navAccountLink ('Настройки аккаунта')
+23348 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: navAccountLink ('Настройки аккаунта')
+23399 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+34538 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 11.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: c64a2832-18af-4fdf-a4f6-d4ea08551594
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy6.afterClickOn(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341) [selenium-server-standalone-2.33.0.jar:na]
+	at main.pages.HomePage.facebookExit(HomePage.java:201) [classes/:na]
+	at test.java.LogTest.facebookValidLogin(LogTest.java:89) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7403) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6993) ~[na:na]
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9944) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10456) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:386) ~[na:na]
+34539 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+34540 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+34557 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+35473 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('English▼')
+35558 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('English')
+35558 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+35563 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+35600 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: lang_ru ('Русский')
+35725 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: lang_ru ('')
+35725 [main] INFO  test.java.LogTest - Finished finding after waiting for 167 milliseconds.
+35852 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = facebookValidLoginPopup()<<<<<<<<<<<<<<<
+35852 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+36405 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+36500 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+36647 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+36647 [main] INFO  test.java.LogTest - Finished finding after waiting for 795 milliseconds.
+36705 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Вход через Facebook')
+36982 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Вход через Facebook')
+38326 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input id: email ('')' to 'tag:input id: email ('')'
+38453 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: email from 'tag:input id: email ('')' to 'tag:input id: email ('')'
+38543 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input id: pass ('')' to 'tag:input id: pass ('')'
+38658 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: pass from 'tag:input id: pass ('')' to 'tag:input id: pass ('')'
+40965 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+40972 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+41016 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+41105 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+41105 [main] INFO  test.java.LogTest - Finished finding after waiting for 140 milliseconds.
+41825 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.facebook.com/'
+43477 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: navAccountLink ('Настройки аккаунта')
+43636 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: navAccountLink ('Настройки аккаунта')
+43697 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+54647 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.87 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: c64a2832-18af-4fdf-a4f6-d4ea08551594
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy6.afterClickOn(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341) [selenium-server-standalone-2.33.0.jar:na]
+	at main.pages.HomePage.facebookExit(HomePage.java:201) [classes/:na]
+	at test.java.LogTest.facebookValidLoginPopup(LogTest.java:115) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7403) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6993) ~[na:na]
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9944) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10456) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:386) ~[na:na]
+54650 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+54650 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+54672 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+55605 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+55710 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+55710 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+55716 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+55761 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+55901 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+55901 [main] INFO  test.java.LogTest - Finished finding after waiting for 191 milliseconds.
+55916 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = googleValidLogin()<<<<<<<<<<<<<<<
+55916 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.gmail.com/'
+57167 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input id: Email ('')' to 'tag:input id: Email ('')'
+57287 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Email from 'tag:input id: Email ('')' to 'tag:input id: Email ('')'
+57621 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input id: Passwd ('')' to 'tag:input id: Passwd ('')'
+57775 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: Passwd from 'tag:input id: Passwd ('')' to 'tag:input id: Passwd ('')'
+61711 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://tutorsband.com/'
+61756 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+62787 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+74107 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Login')
+74330 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Login')
+74330 [main] INFO  test.java.LogTest - Finished finding after waiting for 12574 milliseconds.
+74426 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Login with Google')
+74559 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Login with Google')
+75985 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+76000 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+76073 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Exit')
+76188 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Exit')
+76188 [main] INFO  test.java.LogTest - Finished finding after waiting for 203 milliseconds.
+77191 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://www.gmail.com/'
+78752 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: gbg4 ('')
+79249 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: gbg4 ('')
+79310 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: gb_71 ('Выйти')
+90031 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.58 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: c64a2832-18af-4fdf-a4f6-d4ea08551594
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy6.afterClickOn(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341) [selenium-server-standalone-2.33.0.jar:na]
+	at main.pages.HomePage.googleExit(HomePage.java:230) [classes/:na]
+	at test.java.LogTest.googleValidLogin(LogTest.java:140) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7403) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6993) ~[na:na]
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9944) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10456) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous7801724181810796058webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:386) ~[na:na]
+90033 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+90033 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+90051 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+90959 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+91041 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+91041 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+91045 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+91077 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+91171 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+91171 [main] INFO  test.java.LogTest - Finished finding after waiting for 130 milliseconds.
+91182 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginNoEmail<<<<<<<<<<<<<<<
+91183 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+91192 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+91249 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+91359 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+91359 [main] INFO  test.java.LogTest - Finished finding after waiting for 176 milliseconds.
+91433 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+91531 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+91638 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+91793 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+91816 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+91910 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+92635 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+92635 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+92657 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+93470 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+93570 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+93570 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+93574 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+93649 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+93737 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+93737 [main] INFO  test.java.LogTest - Finished finding after waiting for 167 milliseconds.
+93750 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginNoPass<<<<<<<<<<<<<<<
+93751 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+93757 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+93801 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+93935 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+93935 [main] INFO  test.java.LogTest - Finished finding after waiting for 184 milliseconds.
+94010 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+94138 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+94199 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+94312 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+94354 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+94437 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+94990 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+94990 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+95116 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+95976 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+96094 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+96094 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+96099 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+96159 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+96248 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+96248 [main] INFO  test.java.LogTest - Finished finding after waiting for 154 milliseconds.
+96256 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginWrongEmail<<<<<<<<<<<<<<<
+96256 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+96259 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+96295 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+96439 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+96439 [main] INFO  test.java.LogTest - Finished finding after waiting for 183 milliseconds.
+96537 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+96668 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+96787 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+96931 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+96975 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+97100 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+97695 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+97695 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+97713 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+98657 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+98770 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+98770 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+98775 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+98840 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+98948 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+98948 [main] INFO  test.java.LogTest - Finished finding after waiting for 178 milliseconds.
+98961 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginWrongPass<<<<<<<<<<<<<<<
+98962 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+98968 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+99010 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+99153 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+99153 [main] INFO  test.java.LogTest - Finished finding after waiting for 191 milliseconds.
+99242 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+99398 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+99485 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+99610 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+99650 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+99758 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+100334 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+100335 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+100350 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+101160 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+101261 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+101262 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+101267 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+101326 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+101439 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+101439 [main] INFO  test.java.LogTest - Finished finding after waiting for 177 milliseconds.
+101450 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = invalidLoginWrongPass<<<<<<<<<<<<<<<
+101450 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+101453 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+101494 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+101612 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+101613 [main] INFO  test.java.LogTest - Finished finding after waiting for 163 milliseconds.
+101670 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Создайте свой аккаунт!')
+101748 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('')
+101812 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('войдите в систему')
+101892 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('')
+101912 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.LogTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+101912 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+101925 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+102807 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+102914 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+102914 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+102918 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+102941 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+103103 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+103103 [main] INFO  test.java.LogTest - Finished finding after waiting for 189 milliseconds.
+103119 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = validLogin()<<<<<<<<<<<<<<<
+103119 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+103125 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+103165 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+103315 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+103315 [main] INFO  test.java.LogTest - Finished finding after waiting for 196 milliseconds.
+103418 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+103528 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+103607 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+103752 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+103758 [main] INFO  test.java.LogTest - Get element by locator: By.id: login_button
+103767 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+103811 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+103886 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+103887 [main] INFO  test.java.LogTest - Finished finding after waiting for 128 milliseconds.
+105496 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+105507 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+105560 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+105700 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+105700 [main] INFO  test.java.LogTest - Finished finding after waiting for 203 milliseconds.
+106554 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+108661 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy7.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.33.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:103) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:169) ~[classes/:na]
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:334) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.33.0.jar:na]
+	... 11 common frames omitted
+108662 [Thread-0] WARN  main.Driver.WebDriverFactory - Driver killing error
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy7.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.33.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:103) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:169) [classes/:na]
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:334) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.33.0.jar:na]
+	... 11 common frames omitted
+263  [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+270  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+3585 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+8512 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('English▼')
+8593 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('English')
+8593 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+8606 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+8655 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: lang_ru ('Русский')
+8752 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: lang_ru ('')
+8752 [main] INFO  test.java.LogTest - Finished finding after waiting for 159 milliseconds.
+8765 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = InvalidMyAccount()<<<<<<<<<<<<<<<
+8768 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+9493 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+9590 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+9711 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+9711 [main] INFO  test.java.LogTest - Finished finding after waiting for 943 milliseconds.
+9845 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+9969 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+10627 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+10803 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+10810 [main] INFO  test.java.LogTest - Get element by locator: By.id: login_button
+10819 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+10863 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+10979 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+10980 [main] INFO  test.java.LogTest - Finished finding after waiting for 170 milliseconds.
+12868 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Настройки')
+13234 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Настройки')
+13263 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Мой аккаунт')
+13457 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Мой аккаунт')
+14333 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+14395 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+14466 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+14587 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+14681 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+14826 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+15516 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+15643 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+15753 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+15875 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+15915 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+16102 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+16863 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+16992 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+17101 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+17214 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+17259 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+17517 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+18170 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+18305 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_email from 'tag:input id: main_config_email ('')' to 'tag:input id: main_config_email ('')'
+18437 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+18558 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: main_config_password from 'tag:input id: main_config_password ('')' to 'tag:input id: main_config_password ('')'
+18605 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+18847 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+19441 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+19472 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+19482 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+19524 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+19612 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+19612 [main] INFO  test.java.LogTest - Finished finding after waiting for 140 milliseconds.
+20548 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+20548 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+20566 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+21305 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+21418 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+21418 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+21423 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+21468 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+21579 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+21579 [main] INFO  test.java.LogTest - Finished finding after waiting for 161 milliseconds.
+21591 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = MainSettInvalid<<<<<<<<<<<<<<<
+21591 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+21595 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+21635 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+21865 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+21865 [main] INFO  test.java.LogTest - Finished finding after waiting for 274 milliseconds.
+21972 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+22159 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+22269 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+22415 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+22423 [main] INFO  test.java.LogTest - Get element by locator: By.id: login_button
+22432 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+22478 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+22577 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+22577 [main] INFO  test.java.LogTest - Finished finding after waiting for 154 milliseconds.
+23874 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Настройки')
+23967 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Настройки')
+24371 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+24491 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+24521 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+24643 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+25195 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+25225 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+25232 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+25250 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+25442 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+25442 [main] INFO  test.java.LogTest - Finished finding after waiting for 216 milliseconds.
+26473 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+26473 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+26491 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+27286 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+27362 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+27362 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+27371 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+27418 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+27512 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+27512 [main] INFO  test.java.LogTest - Finished finding after waiting for 150 milliseconds.
+27526 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = MainSetting<<<<<<<<<<<<<<<
+27526 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+27536 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+27636 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+27738 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+27738 [main] INFO  test.java.LogTest - Finished finding after waiting for 212 milliseconds.
+27838 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+27959 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+28053 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+28189 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+28196 [main] INFO  test.java.LogTest - Get element by locator: By.id: login_button
+28205 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+28247 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+28325 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+28325 [main] INFO  test.java.LogTest - Finished finding after waiting for 129 milliseconds.
+29576 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Настройки')
+29668 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Настройки')
+30017 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+30128 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+30233 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_city_name from 'tag:input id: teacher_config_city_name ('')' to 'tag:input id: teacher_config_city_name ('')'
+30335 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_city_name from 'tag:input id: teacher_config_city_name ('')' to 'tag:input id: teacher_config_city_name ('')'
+30599 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:div id:  ('Киев, Украина')
+30688 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:div id:  ('')
+30865 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea id: tags-input ('')' to 'tag:textarea id: tags-input ('')'
+31222 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea id: tags-input ('')' to 'tag:textarea id: tags-input ('')'
+31394 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+31535 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+31752 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_info from 'tag:textarea id: teacher_config_info ('')' to 'tag:textarea id: teacher_config_info ('')'
+32001 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_info from 'tag:textarea id: teacher_config_info ('')' to 'tag:textarea id: teacher_config_info ('')'
+32052 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+32272 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+33600 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Настройки')
+33907 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Настройки')
+33973 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+34322 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+34432 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_city_name from 'tag:input id: teacher_config_city_name ('')' to 'tag:input id: teacher_config_city_name ('')'
+34567 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_city_name from 'tag:input id: teacher_config_city_name ('')' to 'tag:input id: teacher_config_city_name ('')'
+34709 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea id: tags-input ('')' to 'tag:textarea id: tags-input ('')'
+34810 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: tags-input from 'tag:textarea id: tags-input ('')' to 'tag:textarea id: tags-input ('')'
+34872 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+35064 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+35127 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_info from 'tag:textarea id: teacher_config_info ('Conducting rigorous researches in engineering education')' to 'tag:textarea id: teacher_config_info ('Conducting rigorous researches in engineering education')'
+35238 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_info from 'tag:textarea id: teacher_config_info ('Conducting rigorous researches in engineering education')' to 'tag:textarea id: teacher_config_info ('Conducting rigorous researches in engineering education')'
+35283 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+35509 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+35533 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+35549 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+35556 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+35632 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+35724 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+35724 [main] INFO  test.java.LogTest - Finished finding after waiting for 175 milliseconds.
+36529 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+36529 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+36538 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+37321 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+37429 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+37429 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+37436 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+37474 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+37581 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+37581 [main] INFO  test.java.LogTest - Finished finding after waiting for 152 milliseconds.
+37639 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = aMainSettUrlInvalid<<<<<<<<<<<<<<<
+37639 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+37646 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+37705 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+37820 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+37820 [main] INFO  test.java.LogTest - Finished finding after waiting for 180 milliseconds.
+37949 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+38075 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+38156 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+38288 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+38295 [main] INFO  test.java.LogTest - Get element by locator: By.id: login_button
+38299 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+38338 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+38457 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+38457 [main] INFO  test.java.LogTest - Finished finding after waiting for 161 milliseconds.
+39778 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Настройки')
+39867 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Настройки')
+40150 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+40436 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+40564 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+40717 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+40883 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+41452 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+46979 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+47128 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+47221 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+47320 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+47370 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+47585 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+53628 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+53826 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+53955 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+54071 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+54121 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+54358 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+58907 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+59055 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_name from 'tag:input id: teacher_config_name ('')' to 'tag:input id: teacher_config_name ('')'
+59156 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+59264 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: teacher_config_short_url from 'tag:input id: teacher_config_short_url ('')' to 'tag:input id: teacher_config_short_url ('')'
+59287 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id:  ('')
+59540 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id:  ('')
+60097 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+60117 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+60127 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+60170 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+60278 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+60278 [main] INFO  test.java.LogTest - Finished finding after waiting for 161 milliseconds.
+61046 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+61047 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+61066 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+61900 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+61994 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+61994 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+62000 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+62044 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+62175 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+62175 [main] INFO  test.java.LogTest - Finished finding after waiting for 181 milliseconds.
+62190 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = photoInput()<<<<<<<<<<<<<<<
+62190 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+62193 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+62232 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+62358 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+62359 [main] INFO  test.java.LogTest - Finished finding after waiting for 169 milliseconds.
+62427 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+62561 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+62684 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+62823 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+62830 [main] INFO  test.java.LogTest - Get element by locator: By.id: login_button
+62837 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+62883 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+62974 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+62974 [main] INFO  test.java.LogTest - Finished finding after waiting for 143 milliseconds.
+75084 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.54 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: 423407c0-52bf-4e1d-8afc-27b2080d7b6c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy9.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterChangeValueOf(MyWebDriverEventListener.java:29) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy7.afterChangeValueOf(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:351) [selenium-server-standalone-2.33.0.jar:na]
+	at main.pages.HomePage.fileInputHidden(HomePage.java:259) [classes/:na]
+	at test.java.SettingTest.photoInput(SettingTest.java:96) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7403) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous2825349963541900310webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6993) ~[na:na]
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous2825349963541900310webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9944) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous2825349963541900310webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10456) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous2825349963541900310webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:386) ~[na:na]
+75089 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+75110 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+75117 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+75155 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+75242 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+75243 [main] INFO  test.java.LogTest - Finished finding after waiting for 133 milliseconds.
+76082 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+76082 [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+76100 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+76902 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('Русский▼')
+77007 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('Русский')
+77007 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+77013 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+77055 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Русский')
+77190 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Русский')
+77190 [main] INFO  test.java.LogTest - Finished finding after waiting for 183 milliseconds.
+77197 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = photoInput()<<<<<<<<<<<<<<<
+77197 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+77201 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+77220 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+77354 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+77354 [main] INFO  test.java.LogTest - Finished finding after waiting for 156 milliseconds.
+77456 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+77569 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+77634 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+77740 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+77744 [main] INFO  test.java.LogTest - Get element by locator: By.id: login_button
+77747 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+77769 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+77849 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+77849 [main] INFO  test.java.LogTest - Finished finding after waiting for 105 milliseconds.
+89143 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('')
+89247 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('')
+89881 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('Настройки')
+89971 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('Настройки')
+101678 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 11.39 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: 423407c0-52bf-4e1d-8afc-27b2080d7b6c
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy9.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterChangeValueOf(MyWebDriverEventListener.java:29) ~[classes/:na]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy7.afterChangeValueOf(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:351) [selenium-server-standalone-2.33.0.jar:na]
+	at main.pages.HomePage.fileInputHidden(HomePage.java:259) [classes/:na]
+	at test.java.SettingTest.settPhotoInput(SettingTest.java:123) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7403) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous2825349963541900310webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6993) ~[na:na]
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous2825349963541900310webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9944) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous2825349963541900310webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10456) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous2825349963541900310webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:386) ~[na:na]
+101681 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+101715 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+101722 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+101772 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+101878 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: logout ('Выйти')
+101878 [main] INFO  test.java.LogTest - Finished finding after waiting for 162 milliseconds.
+102886 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+278  [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+286  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+3691 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+7806 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('English▼')
+7936 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('English')
+7936 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+7942 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+7993 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: lang_ru ('Русский')
+8083 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: lang_ru ('')
+8083 [main] INFO  test.java.LogTest - Finished finding after waiting for 147 milliseconds.
+8109 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = photoInput()<<<<<<<<<<<<<<<
+8112 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+9589 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+9632 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+9793 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+9793 [main] INFO  test.java.LogTest - Finished finding after waiting for 1681 milliseconds.
+9927 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+10072 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+10893 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+11056 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+11064 [main] INFO  test.java.LogTest - Get element by locator: By.id: login_button
+11070 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+11119 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+11238 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:input id: login_button ('')
+11238 [main] INFO  test.java.LogTest - Finished finding after waiting for 174 milliseconds.
+22460 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id:  ('')
+22551 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id:  ('')
+33674 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.47 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: e6eaf1dc-a037-4d35-9055-164f2fecab57
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy9.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterChangeValueOf(MyWebDriverEventListener.java:29) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy7.afterChangeValueOf(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:351) [selenium-server-standalone-2.33.0.jar:na]
+	at main.pages.HomePage.fileInputHidden(HomePage.java:259) [classes/:na]
+	at test.java.SettingTest.photoInput(SettingTest.java:102) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7403) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous4309412282409755658webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6993) ~[na:na]
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous4309412282409755658webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9944) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous4309412282409755658webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10456) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous4309412282409755658webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:386) ~[na:na]
+33678 [main] INFO  test.java.LogTest - >>>>>>>>>>@AfterMethod<<<<<<<<<
+33849 [main] INFO  test.java.LogTest - Get element by locator: By.id: logout
+33857 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+33896 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: logout ('Выйти')
+43842 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 9.89 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: e6eaf1dc-a037-4d35-9055-164f2fecab57
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:117) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy9.getTagName(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:55) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy7.afterClickOn(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341) [selenium-server-standalone-2.33.0.jar:na]
+	at main.pages.HomePage.safeClickByLocator(HomePage.java:296) [classes/:na]
+	at main.pages.MyPage.exit(MyPage.java:194) [classes/:na]
+	at test.java.SettingTest.unLogin(SettingTest.java:54) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7403) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous4309412282409755658webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6993) ~[na:na]
+	at <anonymous class>.WebElement.getElementTagName(file:///tmp/anonymous4309412282409755658webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9944) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous4309412282409755658webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10456) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous4309412282409755658webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:386) ~[na:na]
+43843 [main] INFO  test.java.LogTest - ERROR: Stale element. By.id: logout
+43845 [main] INFO  test.java.LogTest - Locating remaining time: 81 seconds.
+52900 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: logout
+52901 [main] INFO  test.java.LogTest - Unable to locate element: {"method":"id","selector":"logout"}
+Command duration or timeout: 9.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: e6eaf1dc-a037-4d35-9055-164f2fecab57
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+52901 [main] INFO  test.java.LogTest - Locating remaining time: 72 seconds.
+61940 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: logout
+61940 [main] INFO  test.java.LogTest - Unable to locate element: {"method":"id","selector":"logout"}
+Command duration or timeout: 9.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: e6eaf1dc-a037-4d35-9055-164f2fecab57
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+61940 [main] INFO  test.java.LogTest - Locating remaining time: 63 seconds.
+70975 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: logout
+70975 [main] INFO  test.java.LogTest - Unable to locate element: {"method":"id","selector":"logout"}
+Command duration or timeout: 9.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: e6eaf1dc-a037-4d35-9055-164f2fecab57
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+70975 [main] INFO  test.java.LogTest - Locating remaining time: 54 seconds.
+73809 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+282  [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>class test.java.SettingTest<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+290  [main] DEBUG main.Driver.WebDriverFactory - Requested driver: Capabilities [{platform=ANY, browserName=firefox, version=}]:null
+3321 [main] INFO  m.Driver.MyWebDriverEventListener - WebDriver navigating to:'https://plush.com.ua/'
+8836 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:li id:  ('English▼')
+8993 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:li id:  ('English')
+8993 [main] INFO  test.java.LogTest - Get element by locator: By.xpath: //div[@class='select-lang open-lang sh']//a[text()='Русский']
+9004 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+9069 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: lang_ru ('Русский')
+9176 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: lang_ru ('')
+9176 [main] INFO  test.java.LogTest - Finished finding after waiting for 183 milliseconds.
+9199 [main] INFO  test.java.LogTest - >>>>>>>>>>>>>>>Test = photoInput()<<<<<<<<<<<<<<<
+9203 [main] INFO  test.java.LogTest - Get element by locator: By.id: js_header_signin
+9336 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+10263 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:a id: js_header_signin ('Войти')
+10501 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver clicked on element tag:a id: js_header_signin ('Войти')
+10501 [main] INFO  test.java.LogTest - Finished finding after waiting for 1298 milliseconds.
+10627 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+10771 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_email from 'tag:input id: login_email ('')' to 'tag:input id: login_email ('')'
+11499 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+11651 [main] DEBUG m.Driver.MyWebDriverEventListener - WebDriver changing value in element found By.id: login_password from 'tag:input id: login_password ('')' to 'tag:input id: login_password ('')'
+11658 [main] INFO  test.java.LogTest - Get element by locator: By.id: login_button
+11664 [main] INFO  test.java.LogTest - Locating remaining time: 90 seconds.
+11706 [main] DEBUG m.Driver.MyWebDriverEventListener - Webdriver will click on element tag:input id: login_button ('')
+21986 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 10.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: dd40cced-f7d7-4cb0-87d2-332e6c145f24
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525) ~[na:1.7.0_17]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:191) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:152) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:327) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy9.getText(Unknown Source) ~[na:na]
+	at main.Driver.MyWebDriverEventListener.elementDescription(MyWebDriverEventListener.java:63) ~[classes/:na]
+	at main.Driver.MyWebDriverEventListener.afterClickOn(MyWebDriverEventListener.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:78) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy7.afterClickOn(Unknown Source) [na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:341) [selenium-server-standalone-2.33.0.jar:na]
+	at main.pages.HomePage.safeClickByLocator(HomePage.java:296) [classes/:na]
+	at main.pages.LoginPage.userLogin(LoginPage.java:51) [classes/:na]
+	at test.java.SettingTest.photoInput(SettingTest.java:93) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:128) [testng.jar:6.9beta-201211201815]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.privateRun(TestRunner.java:767) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestRunner.run(TestRunner.java:617) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng.jar:6.9beta-201211201815]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1203) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng.jar:6.9beta-201211201815]
+	at org.testng.TestNG.run(TestNG.java:1036) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204) [testng.jar:6.9beta-201211201815]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175) [testng.jar:6.9beta-201211201815]
+org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element not found in the cache - perhaps the page has changed since it was looked up
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web_element_cache.js:7403) ~[na:na]
+	at <anonymous class>.Utils.getElementAt(file:///tmp/anonymous1820867291744275236webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:6993) ~[na:na]
+	at <anonymous class>.WebElement.getElementText(file:///tmp/anonymous1820867291744275236webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:9910) ~[na:na]
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///tmp/anonymous1820867291744275236webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10456) ~[na:na]
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///tmp/anonymous1820867291744275236webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:386) ~[na:na]
+21987 [main] INFO  test.java.LogTest - ERROR: Stale element. By.id: login_button
+21987 [main] INFO  test.java.LogTest - Locating remaining time: 81 seconds.
+31081 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: login_button
+31081 [main] INFO  test.java.LogTest - Unable to locate element: {"method":"id","selector":"login_button"}
+Command duration or timeout: 9.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: dd40cced-f7d7-4cb0-87d2-332e6c145f24
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+31081 [main] INFO  test.java.LogTest - Locating remaining time: 72 seconds.
+40120 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: login_button
+40121 [main] INFO  test.java.LogTest - Unable to locate element: {"method":"id","selector":"login_button"}
+Command duration or timeout: 9.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: dd40cced-f7d7-4cb0-87d2-332e6c145f24
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+40121 [main] INFO  test.java.LogTest - Locating remaining time: 63 seconds.
+49162 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: login_button
+49162 [main] INFO  test.java.LogTest - Unable to locate element: {"method":"id","selector":"login_button"}
+Command duration or timeout: 9.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: dd40cced-f7d7-4cb0-87d2-332e6c145f24
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+49162 [main] INFO  test.java.LogTest - Locating remaining time: 54 seconds.
+58213 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: login_button
+58214 [main] INFO  test.java.LogTest - Unable to locate element: {"method":"id","selector":"login_button"}
+Command duration or timeout: 9.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: dd40cced-f7d7-4cb0-87d2-332e6c145f24
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+58214 [main] INFO  test.java.LogTest - Locating remaining time: 45 seconds.
+67251 [main] ERROR m.Driver.MyWebDriverEventListener - WebDriver error: Element not found By.id: login_button
+67251 [main] INFO  test.java.LogTest - Unable to locate element: {"method":"id","selector":"login_button"}
+Command duration or timeout: 9.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Session ID: dd40cced-f7d7-4cb0-87d2-332e6c145f24
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=19.0.2}]
+67252 [main] INFO  test.java.LogTest - Locating remaining time: 36 seconds.
+69955 [Thread-0] DEBUG main.Driver.WebDriverFactory - Killing driver 
+72032 [Thread-0] ERROR m.Driver.MyWebDriverEventListener - WebDriver error:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.33.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:103) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:169) ~[classes/:na]
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:334) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.33.0.jar:na]
+	... 11 common frames omitted
+72034 [Thread-0] WARN  main.Driver.WebDriverFactory - Driver killing error
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.33.0', revision: '4e90c97', time: '2013-05-22 15:32:38'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_17'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:423) ~[selenium-server-standalone-2.33.0.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[na:1.7.0_17]
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101) ~[selenium-server-standalone-2.33.0.jar:na]
+	at com.sun.proxy.$Proxy8.quit(Unknown Source) ~[na:na]
+	at org.openqa.selenium.support.events.EventFiringWebDriver.quit(EventFiringWebDriver.java:194) ~[selenium-server-standalone-2.33.0.jar:na]
+	at main.Driver.WebDriverFactory.dismissDriver(WebDriverFactory.java:103) ~[classes/:na]
+	at main.Driver.WebDriverFactory$1.run(WebDriverFactory.java:169) [classes/:na]
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:334) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:295) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:133) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:355) ~[selenium-server-standalone-2.33.0.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527) ~[selenium-server-standalone-2.33.0.jar:na]
+	... 11 common frames omitted
